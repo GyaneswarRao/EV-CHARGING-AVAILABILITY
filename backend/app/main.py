@@ -23,6 +23,19 @@ async def lifespan(app: FastAPI):
         logger.info("No records in MongoDB. Auto-ingesting original dataset from %s", settings.DATASET_PATH)
         ingest_dataset_into_mongodb(settings.DATASET_PATH, db, reset=False)
 
+    # Seed default admin user so login works out of the box without Atlas
+    if db.users.count_documents({"email": "admin@evcharge.com"}) == 0:
+        from app.security.auth import get_password_hash
+        from datetime import datetime, timezone
+        db.users.insert_one({
+            "name": "Gyaneswar Rao (Admin)",
+            "email": "admin@evcharge.com",
+            "password_hash": get_password_hash("Password123!"),
+            "role": "admin",
+            "created_at": datetime.now(timezone.utc).isoformat()
+        })
+        logger.info("Default admin user seeded: admin@evcharge.com")
+
     # Initialize/load models
     if not predictor.load_models():
         logger.info("Training initial ML models from dataset...")

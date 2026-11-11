@@ -1,5 +1,5 @@
 services:
-  # FastAPI Backend Service
+  # FastAPI Backend Service (Runs standalone with self-contained dataset & in-memory MongoDB)
   - type: web
     name: ev-charge-backend
     env: python
@@ -15,8 +15,6 @@ services:
         generateValue: true
       - key: DATABASE_NAME
         value: ev_charging_db
-      - key: MONGODB_URL
-        sync: false # Set your MongoDB Atlas connection string here
 
   # Angular Frontend Static Site
   - type: web
