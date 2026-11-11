@@ -1,5 +1,5 @@
 export const environment = {
-  production: false,
-  apiUrl: 'http://localhost:8000/api',
-  wsUrl: 'ws://localhost:8000/api/simulation/ws'
+  production: true,
+  apiUrl: 'https://ev-charge-backend-fkew.onrender.com/api',
+  wsUrl: 'wss://ev-charge-backend-fkew.onrender.com/api/simulation/ws'
 };
