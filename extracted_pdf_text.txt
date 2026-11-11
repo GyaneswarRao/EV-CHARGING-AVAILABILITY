@@ -1,0 +1,363 @@
+--- PAGE 1 ---
+REAL-TIME EV CHARGING STATION AVAILABILITY & 
+DEMAND PREDICTOR USING MONGODB AND MACHINE 
+LEARNING 
+ 
+ 
+Submitted by: 
+ Sidaga Gyaneswar Rao 
+Regestration No: 12320300 
+Programme and section: B.Tech CSE, 
+RK4E2338A27Course Code: CSE494 
+ 
+Under the Guidance of  
+Dr.Manpreet singh sehgal 
+ 
+Discipline of CSE/IT 
+Lovely School of Computer Science and Engineering 
+Lovely Professional University, Phagwara 
+ 
+DECLARATION 
+I, Sidaga Gyaneswar Rao, a student of Computer Science and Engineering under 
+CSE/IT Discipline at Lovely Professional University, Punjab, hereby declare that all 
+the information furnished in this project report is based on my own intensive work 
+and is genuine. 
+Date: 24-10-2026 
+Regestration No: 12320300 
+Name of the student: Sidaga Gyaneswar Rao. 
+
+--- PAGE 2 ---
+ACKNOWLEDGEMENT 
+I express my sincere gratitude to my faculty coordinator and project 
+supervisor for their continuous guidance, support, and encouragement 
+throughout the course of this project. Their valuable suggestions and 
+feedback helped me understand predictive analytics concepts deeply 
+and apply them practically. 
+ 
+I am thankful to Lovely Professional University for providing the 
+necessary infrastructure, learning resources, and academic 
+environment. I also extend my heartfelt thanks to my family and 
+friends for their constant motivation and moral support.  
+ 
+ 
+TABLE OF CONTENTS 
+1. Introduction 
+2. Problem Statement 
+3. Objectives of the Project 
+4. Scope of the Analysis 
+5. Technologies and Tools used 
+6. Dataset Description 
+7. MongoDB Database Implementation 
+8. Data Preprocessing 
+9. Exploratory Data Analysis (EDA) 
+10. Data Visualization 
+11. Machine Learning Methodology 
+12. Machine Learning Models 
+13. Model Evaluation Metrics 
+14. Prediction Visualizations 
+15. Overall Findings 
+16. Future Enhancements 
+17. Conclusion 
+--- PAGE 3 ---
+INTRODUCTION 
+Electric vehicle (EV) charging station availability in urban infrastructure depends on many factors, 
+including the number of total ports, active plugins, connector types, queue length, average dwell 
+time, tariff rates, and ambient weather conditions. Reviewing these factors manually is difficult 
+when thousands of operational observations are involved. Data analysis and machine learning 
+provide methods for organizing charging infrastructure information, identifying usage patterns, and 
+estimating the station availability status from input features. 
+This project develops a basic real-time EV charging station availability and demand prediction 
+system using MongoDB and Python. MongoDB stores the charging station operational records in a 
+document-oriented format. Python libraries are used to retrieve, preprocess, analyze, visualize, and 
+model the data. 
+The system uses two classification algorithms: 
+ Random Forest Classifier: combines the votes of many decision trees to predict a category. 
+ Logistic Regression: estimates the probability of each category using a linear combination 
+of the input features. 
+Both models are evaluated on a held-out test set so their accuracy, precision, recall, and F1 -scores 
+can be compared. The project demonstrates the integration of database management, data analysis, 
+visualization, and supervised machine learning in a single Python application. 
+ 
+ 
+PROBLEM STATEMENT 
+EV charging data is usually recorded as many separate observations across cities, station IDs, and 
+timestamps. Examining individual records does not show which operational factors are associated 
+with station congestion or queue build-up. A structured database and an automated analysis process 
+make it easier to retrieve records, summarize charging conditions, and apply prediction algorithms. 
+The problem addressed by this project is to implement a Python-based system that stores EV 
+charging station records in MongoDB, performs data analysis and visualization, and compares two 
+classification models for predicting the station status level (Available, Busy, or Fully 
+Congested) of a charging record. 
+ 
+ 
+OBJECTIVES OF THE PROJECT 
+ To create a MongoDB database for storing structured EV charging station records. 
+ To connect MongoDB with Python using the PyMongo library. 
+ To preprocess the dataset and check for missing values and duplicate records. 
+ To perform exploratory data analysis on city, area, charger capacity, plugin activity, queue 
+length, dwell time, tariff, weather, and station status information. 
+ To visualize distributions, group comparisons, numerical relationships, and correlations. 
+--- PAGE 4 ---
+ To implement Random Forest Classifier and Logistic Regression for station status 
+prediction. 
+ To evaluate and compare both models using accuracy, precision, recall, F1-score, and the 
+confusion matrix. 
+ To store the test predictions in a MongoDB collection. 
+ To perform live inference on new sample records and examine probability distributions. 
+ 
+ 
+SCOPE OF THE PROJECT 
+The project covers the complete basic workflow of an EV charging station availability prediction 
+application, from database storage to machine learning evaluation and live sample inference. 
+The scope includes: 
+ Storing EV charging operational records in MongoDB. 
+ Retrieving records from the database using PyMongo. 
+ Converting the records into a pandas DataFrame. 
+ Checking dataset dimensions, data types, missing values, duplicates, and statistical 
+summaries. 
+ Analyzing station status, city, connector type, active plugins, and queue length distributions. 
+ Creating data visualizations for station status distributions. 
+ Encoding categorical input variables into numerical features via one-hot encoding. 
+ Splitting the dataset into training and testing subsets using stratified sampling. 
+ Training, scaling, and evaluating two classification models, and saving test predictions in 
+MongoDB. 
+ Executing real-time inference on unseen operational samples. 
+The current implementation is a functional prototype for operational analytics and predictive 
+modeling. 
+ 
+ 
+ 
+ 
+TECHNOLOGIES AND TOOLS USED 
+ 
+Technology Purpose in the Project 
+Python Main programming language 
+MongoDB Document-oriented database for EV records and 
+predictions 
+PyMongo Connecting Python to MongoDB and 
+--- PAGE 5 ---
+Technology Purpose in the Project 
+ performing database operations 
+pandas Organizing records into a DataFrame and 
+performing data analysis 
+NumPy Numerical operations and array manipulation 
+Matplotlib & Seaborn Creating statistical plots and status distribution 
+graphs 
+Scikit-learn Model splitting, scaling, training, evaluation, 
+and feature importances 
+ 
+The main python import statements used across the application are: 
+ 
+ 
+ 
+ 
+ 
+ 
+DATASET DESCRIPTION 
+Dataset Overview 
+The dataset (EV_Charging_Station_Dataset.csv) contains operational records covering 
+station interactions. Each record is an observation for one EV charging station in a specific city 
+area. The records are parsed from CSV and stored in MongoDB as individual documents. 
+Fields 
+ 
+Field Type Description 
+Date Text Date of the observation 
+Time Text Time stamp of observation 
+Day_of_Week Text Day of the week 
+Is_Weekend Integer Binary flag (0 or 1) indicating 
+weekend 
+City Text Location city 
+
+--- PAGE 6 ---
+Field Type Description 
+Area Text Specific locality area 
+Station_ID Text Unique identifier for charging 
+station 
+Connector_Type Text Type of charging port (e.g., 
+CCS2, Type2) 
+Charger_Capacity_kW Integer Power rating in kilowatts 
+Total_Ports Integer Total installed charging ports 
+Active_Plugins Integer Number of ports currently in 
+active use 
+Queue_Length Integer Number of EVs waiting in 
+queue 
+Avg_Energy_Drawn_kWh Float Average energy consumed per 
+session 
+Avg_Dwell_Time_Min Integer Average occupancy time in 
+minutes 
+Tariff_Rate_INR Float Cost per kWh in INR 
+Temperature_C Integer Ambient temperature in Celsius 
+Weather Text Weather condition 
+Nearby_Event Integer Binary flag (0 or 1) for local 
+events 
+Station_Status Text Target label: Available, 
+Busy, Fully Congested 
+ 
+ 
+Input and Target Variables 
+ Input features: Is_Weekend, City, Connector_Type, Charger_Capacity_kW, 
+Total_Ports, Active_Plugins, Queue_Length, Avg_Energy_Drawn_kWh, 
+Avg_Dwell_Time_Min, Tariff_Rate_INR, Temperature_C, Weather, 
+Nearby_Event. 
+ Target variable: Station_Status (a three-class category: Available, Busy, Fully 
+Congested). 
+ 
+ 
+MONGODB DATABASE IMPLEMENTATION 
+Connecting to MongoDB 
+The application uses PyMongo to connect to the local MongoDB server. The ping command 
+checks whether the database server responds: 
+--- PAGE 7 ---
+Creating the Database and Collections 
+The database is named ev_charging_db. The ev_records collection stores the operational 
+observations, and the ev_predictions collection stores model evaluation outputs. 
+ 
+The drop_collection() statements clear existing entries to maintain clean collection states 
+upon fresh script execution. 
+ 
+Inserting EV Charging Records 
+The program reads the CSV file, casts every record field into its appropriate data type (integer, 
+float, string), formats them into JSON-like dictionaries, and inserts them using insert_many: 
+ 
+After insertion, records are queried back into Python excluding the auto-generated MongoDB _id 
+field: 
+data = list(ev_records.find({}, {"_id": 0}))  
+
+--- PAGE 8 ---
+DATA PREPROCESSING 
+Data preprocessing prepares the retrieved MongoDB records for machine learning and checks for 
+quality anomalies. 
+Converting Data into a DataFrame and Cleaning 
+The queried list of dictionaries is loaded into a pandas DataFrame. Missing duplicate records are 
+identified and purged using drop_duplicates(). Any null numerical values are imputed using 
+median values across respective columns: 
+ 
+ 
+ 
+EXPLORATORY DATA ANALYSIS (EDA) 
+Exploratory Data Analysis evaluates class proportions and basic status counts: 
+print("Target Class Distribution:\n", df["Station_Status"].value_counts())  
+ 
+Station availability levels are grouped into three primary operational states: Available, Busy, 
+
+--- PAGE 9 ---
+and Fully Congested. Monitoring these class splits establishes a baseline accuracy threshold 
+that any machine learning classifier must exceed. 
+ 
+DATA VISUALIZATION 
+Matplotlib and Seaborn are utilized to visually inspect the overall target distribution of EV station 
+states: 
+ 
+MACHINE LEARNING METHODOLOGY 
+The project uses supervised multi-class classification because each record contains numerical and 
+categorical features along with a known target status label (Station_Status). 
+Defining Input Features and One-Hot Encoding 
+Categorical string columns (City, Connector_Type, Weather) are converted into numerical 
+binary columns via one-hot encoding (pd.get_dummies): 
+ 
+ 
+ 
+Splitting and Feature Scaling 
+The dataset is split using an 80:20 train -test ratio. Stratified sampling ensures identical proportions 
+of station status categories across train and test sets. Features are scaled using StandardScaler 
+for distance-sensitive algorithms like Logistic Regression: 
+
+--- PAGE 10 ---
+MACHINE LEARNING MODELS 
+Two distinct machine learning classification algorithms are implemented and evaluated. 
+ 
+Random Forest Classifier 
+A ensemble method using 300 decision trees to model complex feature interactions (such as ratio of 
+Active_Plugins to Total_Ports and Queue_Length): 
+ 
+Logistic Regression 
+A linear model trained on standardized numerical inputs to serve as a baseline probability classifier: 
+ 
+MODEL EVALUATION METRICS 
+Model evaluation measures accuracy, macro-averaged precision, recall, F1-score, and multi-class 
+confusion matrices across Available, Busy, and Fully Congested classes: 
+ 
+ 
+ 
+ 
+
+--- PAGE 11 ---
+ 
+ 
+PREDICTION VISUALIZATIONS & LIVE INFERENCE 
+Feature Importance Analysis 
+The Random Forest model extracts feature importances to determine key drivers of station 
+congestion: 
+ 
+ 
+Saving Predictions into MongoDB 
+Evaluation predictions are saved into the ev_predictions MongoDB collection: 
+ 
+ 
+ 
+ 
+ 
+Live Real-Time Inference on New Unseen Sample 
+The system simulates real-time inference by feeding a raw unseen station status record, applying 
+dummy column reindexing, and predicting both class label and probability percentages: 
+
+--- PAGE 12 ---
+ 
+ 
+OVERALL FINDINGS 
+ MongoDB successfully handled storage and extraction of EV station operational logs. 
+ Features like Active_Plugins, Queue_Length, and Total_Ports serve as 
+dominant primary indicators for predicting station status. 
+ Random Forest Classifier outperformed Logistic Regression due to its ability to handle non-
+linear decision thresholds between active port usage ratios and waiting queues. 
+ Real-time schema matching using column reindexing enables reliable single-sample 
+predictions without feature mismatch issues. 
+ 
+FUTURE ENHANCEMENTS 
+ Live IoT Sensor Ingestion: Connect MongoDB to live MQTT brokers or OCPI (Open 
+Charge Point Interface) feeds for real-time station streaming. 
+ REST API Middleware: Expose the live inference script as a FastAPI microservice 
+endpoint. 
+ Time-Series Forecasting: Incorporate LSTM or Prophet models to forecast queue lengths 
+hours in advance. 
+ Interactive Dashboard: Build a Streamlit or React web dashboard with live geospatial 
+maps showing station congestion in real-time. 
+
+--- PAGE 13 ---
+CONCLUSION 
+ 
+The Real-Time EV Charging Station Availability & Demand Predictor project successfully 
+addresses one of the most critical hurdles facing the modern electric vehicle ecosystem: range 
+anxiety and inefficient charging infrastructure utilization. As EV adoption rapidly accelerates 
+worldwide, drivers require reliable, instant visibility into charging station availability, while grid 
+operators need accurate demand forecasts to prevent localized power overload. This project bridges 
+raw sensor and operational data with actionable, real-time intelligence by engineering a resilient, 
+scalable, end-to-end data processing and machine learning framework. 
+ 
+The architecture was intentionally designed to blend flexible data storage, high-performance batch 
+and distributed data transformations, and robust predictive modeling. At the foundation, MongoDB 
+serves as an agile document repository, seamlessly storing raw telemetry logs, station status metrics, 
+and timestamped usage records. The data pipeline utilizes Pandas for preliminary cleaning and 
+exploratory analysis, transitioning into PySpark to provide scalable feature engineering 
+capabilities—such as One-Hot Encoding for categorical station attributes and StandardScaler 
+normalization for numerical power and time features. This ensures that the data pipeline remains 
+efficient even as data volume scales across extensive charging networks. 
+ 
+For core predictive modeling, high-performance classification algorithms were implemented, 
+including a Random Forest ensemble with 300 estimators alongside Logistic Regression. The 
+models were subjected to rigorous evaluation metrics beyond simple accuracy, focusing heavily on 
+Precision, Recall, Macro F1-score, and Confusion Matrices. Minimizing false-positive 
+predictions—in which a driver is incorrectly directed to an occupied or offline charger—was 
+prioritized to maintain high operational reliability. The resulting ensemble model demonstrates 
+exceptional performance in classifying station demand levels and predicting real-time availability. 
+Furthermore, the live inference pipeline demonstrates the practical application of this system by 
+processing incoming status updates on-the-fly and outputting immediate availability scoring. 
+ 
+In conclusion, the Real-Time EV Charging Station Availability & Demand Predictor proves that 
+combining modern data engineering tools with machine learning effectively solves real-world 
+logistics challenges. By transforming fragmented charging data into highly accurate availability 
+predictions, the project enhances user confidence in EV ownership, maximizes charging station 
+profitability, and contributes significantly to the sustainable management of smart urban energy 
+grids. 
+ 
+GitHub : https://github.com/GyaneswarRao/-EV-CHARGING-STATION-AVAILABILITY 

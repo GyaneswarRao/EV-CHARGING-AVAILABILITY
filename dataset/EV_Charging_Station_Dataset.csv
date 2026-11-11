@@ -1,0 +1,451 @@
+Date,Time,Day_of_Week,Is_Weekend,City,Area,Station_ID,Connector_Type,Charger_Capacity_kW,Total_Ports,Active_Plugins,Queue_Length,Avg_Energy_Drawn_kWh,Avg_Dwell_Time_Min,Tariff_Rate_INR,Temperature_C,Weather,Nearby_Event,Station_Status
+2025-01-24,08:00,Friday,0,Mumbai,Bandra,EV_MUM_108,Type 2,50,6,3,0,56.41,38,17.47,39,Clear,0,Busy
+2025-01-18,06:00,Saturday,1,Nagpur,Dharampeth,EV_NAG_118,GB/T,50,6,3,0,115.46,35,13.4,40,Hot/Humid,0,Busy
+2025-01-05,06:00,Sunday,1,Thane,Thane West,EV_THA_111,CCS2,25,16,7,0,175.99,27,13.46,25,Hot/Humid,0,Available
+2025-01-30,12:00,Thursday,0,Nagpur,Dharampeth,EV_NAG_103,CHAdeMO,150,6,2,0,71.71,74,12.58,40,Cloudy,0,Available
+2025-01-28,03:00,Tuesday,0,Mumbai,Lower Parel,EV_MUM_113,CHAdeMO,120,10,2,0,73.9,68,13.3,27,Cloudy,0,Available
+2025-01-18,23:00,Saturday,1,Nagpur,MIHAN,EV_NAG_108,Type 2,120,6,2,0,48.37,27,13.61,30,Hot/Humid,0,Available
+2025-01-03,06:00,Friday,0,Nashik,Satpur,EV_NAS_119,CHAdeMO,50,8,2,0,49.32,60,13.08,34,Hot/Humid,1,Available
+2025-01-29,18:00,Wednesday,0,Nagpur,Manish Nagar,EV_NAG_113,CHAdeMO,50,6,3,0,123.75,34,18.25,38,Rainy,1,Busy
+2025-01-03,12:00,Friday,0,Nashik,CIDCO,EV_NAS_113,GB/T,150,6,2,0,72.81,59,13.5,39,Cloudy,0,Available
+2025-01-10,13:00,Friday,0,Thane,Majiwada,EV_THA_106,GB/T,25,6,1,0,41.5,44,13.68,38,Cloudy,0,Available
+2025-01-07,04:00,Tuesday,0,Nagpur,Civil Lines,EV_NAG_112,Type 2,150,6,1,0,43.09,44,12.48,41,Clear,0,Available
+2025-01-03,02:00,Friday,0,Pune,Baner,EV_PUN_116,CCS2,150,8,4,0,100.63,63,12.85,26,Rainy,1,Busy
+2025-01-25,23:00,Saturday,1,Pune,Baner,EV_PUN_107,CHAdeMO,120,8,3,0,59.19,26,13.18,36,Cloudy,1,Available
+2025-01-08,00:00,Wednesday,0,Pune,Baner,EV_PUN_103,CCS2,50,8,1,0,25.52,56,12.43,23,Clear,0,Available
+2025-01-19,15:00,Sunday,1,Pune,Baner,EV_PUN_108,GB/T,120,10,4,0,117.75,54,13.73,25,Rainy,0,Available
+2025-01-02,12:00,Thursday,0,Mumbai,Bandra,EV_MUM_111,CCS2,50,8,2,0,51.04,40,13.75,28,Rainy,1,Available
+2025-01-26,17:00,Sunday,1,Mumbai,Worli,EV_MUM_104,CCS2,150,12,7,0,216.98,50,18.8,24,Clear,0,Busy
+2025-01-01,12:00,Wednesday,0,Pune,Kharadi,EV_PUN_109,GB/T,60,10,3,0,71.63,28,13.16,39,Hot/Humid,1,Available
+2025-01-24,10:00,Friday,0,Nagpur,Dharampeth,EV_NAG_102,CCS2,150,16,6,0,120.98,36,17.14,38,Hot/Humid,0,Available
+2025-01-13,03:00,Monday,0,Mumbai,Lower Parel,EV_MUM_119,Type 2,150,16,3,0,99.78,45,13.87,41,Clear,0,Available
+2025-01-08,08:00,Wednesday,0,Pune,Kothrud,EV_PUN_113,Type 2,60,16,6,0,269.75,31,17.15,32,Hot/Humid,0,Available
+2025-01-09,04:00,Thursday,0,Pune,Baner,EV_PUN_112,CCS2,50,16,3,0,110.99,64,13.97,31,Cloudy,0,Available
+2025-01-22,17:00,Wednesday,0,Nagpur,Dharampeth,EV_NAG_110,CCS2,50,8,5,1,128.04,38,18.44,25,Cloudy,0,Busy
+2025-01-17,15:00,Friday,0,Pune,Kothrud,EV_PUN_109,CCS2,25,8,0,0,0.0,41,12.32,30,Hot/Humid,0,Available
+2025-01-23,13:00,Thursday,0,Nashik,CIDCO,EV_NAS_118,CCS2,25,16,5,0,164.59,52,12.25,26,Clear,0,Available
+2025-01-29,01:00,Wednesday,0,Thane,Thane West,EV_THA_112,Type 2,50,8,4,0,171.98,40,13.73,33,Clear,1,Busy
+2025-01-01,05:00,Wednesday,0,Pune,Kharadi,EV_PUN_111,GB/T,50,6,1,0,41.18,39,12.4,27,Cloudy,0,Available
+2025-01-10,07:00,Friday,0,Nashik,Satpur,EV_NAS_108,CCS2,50,10,3,0,82.44,57,12.8,32,Hot/Humid,0,Available
+2025-01-01,03:00,Wednesday,0,Nagpur,Sitabuldi,EV_NAG_109,Type 2,150,10,2,0,75.34,45,12.87,23,Cloudy,0,Available
+2025-01-13,18:00,Monday,0,Nagpur,Dharampeth,EV_NAG_107,CHAdeMO,25,6,3,0,130.86,46,18.25,22,Hot/Humid,0,Busy
+2025-01-17,09:00,Friday,0,Mumbai,Andheri,EV_MUM_114,CHAdeMO,120,12,5,0,181.44,36,18.23,39,Cloudy,0,Available
+2025-01-18,00:00,Saturday,1,Thane,Wagle Estate,EV_THA_110,CHAdeMO,50,12,4,0,144.97,57,12.95,40,Hot/Humid,0,Available
+2025-01-10,16:00,Friday,0,Pune,Hinjewadi,EV_PUN_120,CHAdeMO,25,8,2,0,37.32,40,13.97,31,Rainy,0,Available
+2025-01-15,13:00,Wednesday,0,Nagpur,Dharampeth,EV_NAG_119,Type 2,120,6,1,0,42.1,74,13.77,34,Hot/Humid,0,Available
+2025-01-06,22:00,Monday,0,Nashik,Indira Nagar,EV_NAS_117,GB/T,25,12,3,0,108.07,60,13.19,25,Rainy,1,Available
+2025-01-27,23:00,Monday,0,Nashik,CIDCO,EV_NAS_117,GB/T,150,8,3,0,122.03,42,13.53,27,Hot/Humid,1,Available
+2025-01-21,07:00,Tuesday,0,Nagpur,Manish Nagar,EV_NAG_109,GB/T,25,16,2,0,40.35,34,12.46,29,Cloudy,0,Available
+2025-01-03,13:00,Friday,0,Pune,Viman Nagar,EV_PUN_114,CHAdeMO,150,12,1,0,28.52,74,13.17,35,Hot/Humid,0,Available
+2025-01-13,15:00,Monday,0,Mumbai,Powai,EV_MUM_101,CHAdeMO,60,10,2,0,59.54,26,12.78,35,Hot/Humid,0,Available
+2025-01-27,14:00,Monday,0,Nashik,Indira Nagar,EV_NAS_105,CCS2,120,12,3,0,68.72,41,12.76,24,Clear,1,Available
+2025-01-11,10:00,Saturday,1,Pune,Kharadi,EV_PUN_113,CHAdeMO,120,16,11,0,494.97,47,17.45,24,Cloudy,1,Busy
+2025-01-25,00:00,Saturday,1,Mumbai,Bandra,EV_MUM_108,Type 2,25,6,2,0,66.45,38,12.93,29,Rainy,0,Available
+2025-01-06,19:00,Monday,0,Thane,Thane West,EV_THA_120,CCS2,50,16,10,2,425.17,49,17.79,25,Cloudy,0,Busy
+2025-01-19,22:00,Sunday,1,Pune,Hinjewadi,EV_PUN_108,CCS2,60,12,4,0,143.44,29,13.01,40,Clear,0,Available
+2025-01-28,13:00,Tuesday,0,Thane,Majiwada,EV_THA_116,CCS2,120,12,6,0,136.53,58,13.93,42,Cloudy,1,Busy
+2025-01-26,17:00,Sunday,1,Thane,Kashimira,EV_THA_116,GB/T,120,6,4,1,167.22,40,18.5,32,Cloudy,0,Busy
+2025-01-22,12:00,Wednesday,0,Nagpur,Civil Lines,EV_NAG_111,CCS2,120,10,3,0,81.57,63,13.4,27,Cloudy,1,Available
+2025-01-01,16:00,Wednesday,0,Thane,Kashimira,EV_THA_107,CCS2,50,12,3,0,90.3,26,12.19,37,Hot/Humid,0,Available
+2025-01-23,07:00,Thursday,0,Pune,Kharadi,EV_PUN_110,CHAdeMO,120,12,2,0,50.63,41,12.46,35,Cloudy,0,Available
+2025-01-04,23:00,Saturday,1,Pune,Kothrud,EV_PUN_118,Type 2,50,16,7,0,238.79,31,13.67,37,Rainy,0,Available
+2025-01-12,05:00,Sunday,1,Thane,Ghodbunder Road,EV_THA_110,CCS2,150,16,8,0,207.1,33,13.28,30,Rainy,0,Busy
+2025-01-28,00:00,Tuesday,0,Nashik,College Road,EV_NAS_119,CHAdeMO,120,6,1,0,24.82,55,12.23,36,Hot/Humid,0,Available
+2025-01-16,02:00,Thursday,0,Mumbai,Worli,EV_MUM_119,CCS2,50,8,1,0,21.2,73,12.83,40,Rainy,0,Available
+2025-01-08,16:00,Wednesday,0,Nagpur,Civil Lines,EV_NAG_113,GB/T,120,16,5,0,98.13,72,12.2,40,Cloudy,1,Available
+2025-01-09,21:00,Thursday,0,Pune,Viman Nagar,EV_PUN_103,Type 2,50,12,5,0,150.82,63,17.94,39,Rainy,0,Available
+2025-01-10,22:00,Friday,0,Mumbai,Lower Parel,EV_MUM_110,GB/T,25,16,3,0,72.21,34,13.82,30,Rainy,0,Available
+2025-01-02,05:00,Thursday,0,Pune,Hinjewadi,EV_PUN_110,CHAdeMO,120,10,3,0,94.54,56,12.88,36,Clear,0,Available
+2025-01-29,13:00,Wednesday,0,Nagpur,Dharampeth,EV_NAG_111,CHAdeMO,25,10,3,0,100.68,73,13.51,29,Clear,0,Available
+2025-01-21,14:00,Tuesday,0,Nashik,CIDCO,EV_NAS_109,Type 2,150,12,6,0,164.37,46,12.64,42,Hot/Humid,1,Busy
+2025-01-11,13:00,Saturday,1,Mumbai,Lower Parel,EV_MUM_116,CHAdeMO,120,10,3,0,63.39,74,12.81,36,Clear,0,Available
+2025-01-22,17:00,Wednesday,0,Nagpur,Dharampeth,EV_NAG_115,GB/T,25,12,6,0,209.32,73,17.1,38,Rainy,0,Busy
+2025-01-05,09:00,Sunday,1,Thane,Kashimira,EV_THA_115,GB/T,25,10,7,2,128.58,51,17.19,42,Clear,0,Busy
+2025-01-04,20:00,Saturday,1,Mumbai,Worli,EV_MUM_105,GB/T,60,8,8,5,263.07,49,17.38,35,Cloudy,1,Fully Congested
+2025-01-24,04:00,Friday,0,Nagpur,Civil Lines,EV_NAG_103,CHAdeMO,120,10,3,0,112.81,62,13.16,38,Cloudy,0,Available
+2025-01-15,17:00,Wednesday,0,Nashik,Indira Nagar,EV_NAS_116,CHAdeMO,60,8,5,2,141.7,74,17.82,36,Hot/Humid,0,Busy
+2025-01-23,12:00,Thursday,0,Thane,Wagle Estate,EV_THA_113,Type 2,120,12,4,0,82.77,54,12.03,26,Clear,0,Available
+2025-01-28,20:00,Tuesday,0,Pune,Kharadi,EV_PUN_105,CCS2,120,10,7,2,288.42,49,18.91,32,Cloudy,1,Busy
+2025-01-02,19:00,Thursday,0,Nashik,CIDCO,EV_NAS_103,Type 2,60,6,5,1,112.46,44,18.81,24,Rainy,1,Busy
+2025-01-26,01:00,Sunday,1,Mumbai,Andheri,EV_MUM_110,CHAdeMO,60,16,6,0,218.45,36,12.34,26,Hot/Humid,0,Available
+2025-01-28,12:00,Tuesday,0,Mumbai,Powai,EV_MUM_120,Type 2,120,12,5,0,124.47,25,13.8,29,Rainy,1,Available
+2025-01-22,17:00,Wednesday,0,Nashik,Satpur,EV_NAS_106,CCS2,120,12,7,0,256.47,54,18.69,40,Cloudy,0,Busy
+2025-01-28,15:00,Tuesday,0,Pune,Kharadi,EV_PUN_104,Type 2,120,10,3,0,55.78,67,12.79,40,Cloudy,0,Available
+2025-01-28,21:00,Tuesday,0,Mumbai,Powai,EV_MUM_102,GB/T,60,8,3,0,104.29,68,18.51,41,Rainy,0,Available
+2025-01-29,20:00,Wednesday,0,Pune,Hinjewadi,EV_PUN_102,CHAdeMO,120,6,3,0,127.68,45,18.49,40,Clear,0,Busy
+2025-01-05,17:00,Sunday,1,Pune,Viman Nagar,EV_PUN_112,CHAdeMO,50,10,7,0,214.51,29,17.28,37,Cloudy,0,Busy
+2025-01-28,17:00,Tuesday,0,Pune,Kharadi,EV_PUN_112,CCS2,120,10,5,0,168.92,65,18.88,30,Clear,0,Busy
+2025-01-16,00:00,Thursday,0,Mumbai,Lower Parel,EV_MUM_120,CHAdeMO,150,12,3,0,127.66,44,13.3,42,Rainy,0,Available
+2025-01-02,01:00,Thursday,0,Mumbai,Lower Parel,EV_MUM_110,GB/T,25,10,2,0,72.21,72,13.39,29,Clear,0,Available
+2025-01-19,23:00,Sunday,1,Nagpur,Manish Nagar,EV_NAG_105,GB/T,25,10,7,0,256.46,38,12.89,41,Hot/Humid,1,Busy
+2025-01-04,21:00,Saturday,1,Pune,Kothrud,EV_PUN_112,CHAdeMO,25,12,9,0,323.05,66,18.28,30,Hot/Humid,0,Busy
+2025-01-26,10:00,Sunday,1,Mumbai,Bandra,EV_MUM_108,Type 2,150,8,5,1,194.54,75,18.8,24,Rainy,0,Busy
+2025-01-28,04:00,Tuesday,0,Mumbai,Andheri,EV_MUM_105,CHAdeMO,50,8,0,0,0.0,26,12.35,22,Clear,0,Available
+2025-01-24,13:00,Friday,0,Mumbai,Lower Parel,EV_MUM_117,CCS2,25,6,1,0,30.2,39,13.89,36,Hot/Humid,0,Available
+2025-01-10,14:00,Friday,0,Mumbai,Powai,EV_MUM_101,CCS2,120,12,2,0,39.97,30,12.64,35,Hot/Humid,0,Available
+2025-01-05,08:00,Sunday,1,Pune,Hinjewadi,EV_PUN_120,CHAdeMO,120,6,4,2,142.3,74,18.1,36,Cloudy,1,Busy
+2025-01-15,07:00,Wednesday,0,Pune,Kharadi,EV_PUN_114,CHAdeMO,120,10,1,0,35.96,48,13.91,35,Hot/Humid,0,Available
+2025-01-03,02:00,Friday,0,Nashik,College Road,EV_NAS_103,GB/T,25,16,4,0,132.66,67,12.24,26,Cloudy,0,Available
+2025-01-28,23:00,Tuesday,0,Thane,Wagle Estate,EV_THA_102,CHAdeMO,150,8,2,0,44.36,55,12.45,33,Cloudy,0,Available
+2025-01-28,17:00,Tuesday,0,Mumbai,Andheri,EV_MUM_112,CCS2,60,10,5,0,93.91,42,18.41,35,Rainy,0,Busy
+2025-01-12,00:00,Sunday,1,Thane,Thane West,EV_THA_106,Type 2,150,6,3,0,61.43,58,12.43,24,Hot/Humid,0,Busy
+2025-01-11,05:00,Saturday,1,Nashik,Panchavati,EV_NAS_112,CHAdeMO,60,16,4,0,77.37,30,12.54,23,Clear,0,Available
+2025-01-20,14:00,Monday,0,Nashik,Panchavati,EV_NAS_114,CHAdeMO,50,16,5,0,155.7,67,12.62,33,Clear,1,Available
+2025-01-20,01:00,Monday,0,Pune,Kharadi,EV_PUN_101,Type 2,60,6,1,0,18.21,72,12.86,26,Rainy,0,Available
+2025-01-18,22:00,Saturday,1,Pune,Kharadi,EV_PUN_108,CHAdeMO,25,6,2,0,82.55,61,12.86,23,Hot/Humid,1,Available
+2025-01-10,03:00,Friday,0,Nashik,Panchavati,EV_NAS_113,CCS2,60,10,5,0,101.9,31,12.49,41,Rainy,1,Busy
+2025-01-17,02:00,Friday,0,Nagpur,Manish Nagar,EV_NAG_113,CHAdeMO,60,6,0,0,0.0,37,13.81,32,Rainy,0,Available
+2025-01-24,20:00,Friday,0,Thane,Thane West,EV_THA_105,Type 2,25,8,3,0,115.58,66,17.15,30,Rainy,0,Available
+2025-01-25,18:00,Saturday,1,Nashik,Panchavati,EV_NAS_119,GB/T,150,6,3,0,91.98,65,17.61,42,Cloudy,0,Busy
+2025-01-02,11:00,Thursday,0,Thane,Kashimira,EV_THA_117,CCS2,60,10,4,0,80.29,30,18.23,36,Hot/Humid,0,Available
+2025-01-15,18:00,Wednesday,0,Nagpur,Manish Nagar,EV_NAG_118,CCS2,120,6,4,1,83.18,46,18.96,32,Rainy,1,Busy
+2025-01-21,05:00,Tuesday,0,Mumbai,Powai,EV_MUM_102,Type 2,120,10,2,0,56.92,74,12.68,38,Hot/Humid,0,Available
+2025-01-26,20:00,Sunday,1,Nagpur,Dharampeth,EV_NAG_111,CCS2,60,16,13,0,351.01,62,18.33,39,Clear,1,Busy
+2025-01-21,22:00,Tuesday,0,Thane,Thane West,EV_THA_113,Type 2,150,10,4,0,159.82,67,13.41,31,Clear,1,Available
+2025-01-21,21:00,Tuesday,0,Nagpur,Dharampeth,EV_NAG_114,CHAdeMO,25,10,6,1,139.1,33,17.31,31,Cloudy,0,Busy
+2025-01-17,17:00,Friday,0,Thane,Majiwada,EV_THA_117,CCS2,60,8,5,2,194.1,35,18.44,41,Rainy,1,Busy
+2025-01-12,21:00,Sunday,1,Mumbai,Worli,EV_MUM_108,GB/T,150,10,7,1,296.85,37,17.74,36,Cloudy,0,Busy
+2025-01-15,09:00,Wednesday,0,Nagpur,Manish Nagar,EV_NAG_113,GB/T,50,6,4,2,123.9,48,18.11,41,Rainy,0,Busy
+2025-01-28,03:00,Tuesday,0,Mumbai,Powai,EV_MUM_110,CCS2,50,6,2,0,87.11,39,13.63,36,Cloudy,0,Available
+2025-01-14,01:00,Tuesday,0,Thane,Majiwada,EV_THA_113,CHAdeMO,50,10,1,0,43.13,70,13.3,24,Hot/Humid,0,Available
+2025-01-02,09:00,Thursday,0,Pune,Viman Nagar,EV_PUN_116,Type 2,120,6,4,1,95.29,34,18.1,41,Hot/Humid,0,Busy
+2025-01-14,03:00,Tuesday,0,Nagpur,Civil Lines,EV_NAG_110,Type 2,60,16,3,0,91.03,32,13.67,23,Clear,0,Available
+2025-01-18,00:00,Saturday,1,Nashik,CIDCO,EV_NAS_117,Type 2,50,8,3,0,100.22,36,13.33,35,Cloudy,0,Available
+2025-01-12,02:00,Sunday,1,Mumbai,Powai,EV_MUM_117,CCS2,120,10,7,2,129.07,75,12.14,23,Hot/Humid,1,Busy
+2025-01-25,18:00,Saturday,1,Pune,Hinjewadi,EV_PUN_111,Type 2,25,8,6,2,183.27,69,17.96,39,Cloudy,0,Busy
+2025-01-03,22:00,Friday,0,Pune,Viman Nagar,EV_PUN_115,CCS2,60,10,3,0,129.6,57,12.8,23,Rainy,0,Available
+2025-01-09,01:00,Thursday,0,Nagpur,Manish Nagar,EV_NAG_107,CHAdeMO,60,10,1,0,29.8,50,13.49,42,Clear,0,Available
+2025-01-06,15:00,Monday,0,Nashik,Satpur,EV_NAS_116,CHAdeMO,150,16,4,0,179.47,36,13.09,24,Cloudy,1,Available
+2025-01-03,10:00,Friday,0,Thane,Majiwada,EV_THA_110,CHAdeMO,120,6,4,2,165.96,47,18.23,27,Hot/Humid,1,Busy
+2025-01-21,01:00,Tuesday,0,Nashik,Satpur,EV_NAS_103,GB/T,60,12,4,0,75.76,29,12.47,22,Rainy,0,Available
+2025-01-13,18:00,Monday,0,Thane,Thane West,EV_THA_102,Type 2,120,16,12,0,387.55,50,17.63,33,Cloudy,1,Busy
+2025-01-04,00:00,Saturday,1,Thane,Ghodbunder Road,EV_THA_106,GB/T,150,10,3,0,111.03,38,13.99,39,Hot/Humid,0,Available
+2025-01-07,03:00,Tuesday,0,Thane,Wagle Estate,EV_THA_105,CCS2,120,10,3,0,108.1,70,12.13,36,Rainy,0,Available
+2025-01-29,09:00,Wednesday,0,Nagpur,Sitabuldi,EV_NAG_106,Type 2,60,8,5,1,93.55,60,18.14,25,Rainy,0,Busy
+2025-01-05,19:00,Sunday,1,Nashik,CIDCO,EV_NAS_103,CCS2,60,16,15,2,320.76,45,18.28,37,Hot/Humid,1,Fully Congested
+2025-01-22,16:00,Wednesday,0,Nashik,Panchavati,EV_NAS_112,Type 2,150,6,2,0,80.9,58,12.31,26,Rainy,1,Available
+2025-01-11,22:00,Saturday,1,Pune,Viman Nagar,EV_PUN_108,CHAdeMO,150,16,4,0,101.64,65,12.61,24,Cloudy,0,Available
+2025-01-17,20:00,Friday,0,Nagpur,Dharampeth,EV_NAG_106,Type 2,50,6,4,0,76.91,66,18.54,40,Cloudy,0,Busy
+2025-01-25,18:00,Saturday,1,Thane,Ghodbunder Road,EV_THA_114,CCS2,120,12,8,1,241.97,69,17.12,42,Cloudy,0,Busy
+2025-01-16,14:00,Thursday,0,Nashik,Panchavati,EV_NAS_107,CHAdeMO,150,10,3,0,133.01,33,13.52,32,Rainy,0,Available
+2025-01-04,10:00,Saturday,1,Nagpur,Civil Lines,EV_NAG_108,GB/T,25,6,3,0,77.51,49,18.73,36,Cloudy,0,Busy
+2025-01-28,05:00,Tuesday,0,Nashik,Indira Nagar,EV_NAS_111,CHAdeMO,50,10,4,0,125.72,30,13.89,37,Rainy,1,Available
+2025-01-08,06:00,Wednesday,0,Nagpur,Manish Nagar,EV_NAG_119,CHAdeMO,25,12,5,0,128.58,25,13.69,31,Clear,1,Available
+2025-01-29,08:00,Wednesday,0,Nashik,Indira Nagar,EV_NAS_112,GB/T,60,8,4,0,111.15,43,17.15,34,Clear,0,Busy
+2025-01-25,17:00,Saturday,1,Nagpur,Manish Nagar,EV_NAG_109,CCS2,50,10,7,2,303.46,73,17.29,34,Clear,0,Busy
+2025-01-13,16:00,Monday,0,Nagpur,Civil Lines,EV_NAG_102,CCS2,25,8,3,0,103.11,57,12.28,32,Rainy,1,Available
+2025-01-06,12:00,Monday,0,Nagpur,Sitabuldi,EV_NAG_120,CHAdeMO,150,10,5,0,154.11,26,12.74,38,Cloudy,1,Busy
+2025-01-19,09:00,Sunday,1,Mumbai,Worli,EV_MUM_101,GB/T,60,16,12,1,263.88,68,17.48,23,Rainy,1,Busy
+2025-01-07,00:00,Tuesday,0,Nagpur,Dharampeth,EV_NAG_115,CHAdeMO,120,16,3,0,128.56,72,13.45,35,Rainy,0,Available
+2025-01-07,17:00,Tuesday,0,Pune,Baner,EV_PUN_111,GB/T,150,16,8,0,217.94,47,18.35,32,Hot/Humid,0,Busy
+2025-01-16,06:00,Thursday,0,Thane,Kashimira,EV_THA_108,CHAdeMO,150,8,2,0,73.27,56,12.63,29,Cloudy,0,Available
+2025-01-30,23:00,Thursday,0,Thane,Kashimira,EV_THA_109,CHAdeMO,25,8,3,0,77.53,43,13.91,34,Hot/Humid,0,Available
+2025-01-30,14:00,Thursday,0,Mumbai,Andheri,EV_MUM_109,GB/T,50,10,3,0,65.12,64,13.48,39,Rainy,0,Available
+2025-01-02,21:00,Thursday,0,Pune,Viman Nagar,EV_PUN_117,Type 2,50,12,8,0,291.14,33,17.01,25,Clear,1,Busy
+2025-01-14,20:00,Tuesday,0,Nagpur,MIHAN,EV_NAG_116,GB/T,50,6,3,0,106.84,39,18.07,32,Cloudy,0,Busy
+2025-01-14,05:00,Tuesday,0,Mumbai,Lower Parel,EV_MUM_102,GB/T,120,16,1,0,34.28,46,12.57,31,Rainy,0,Available
+2025-01-16,04:00,Thursday,0,Nagpur,Civil Lines,EV_NAG_117,GB/T,60,12,1,0,35.5,70,12.37,25,Rainy,0,Available
+2025-01-19,21:00,Sunday,1,Thane,Thane West,EV_THA_107,Type 2,150,6,3,0,68.97,33,17.95,35,Hot/Humid,0,Busy
+2025-01-09,12:00,Thursday,0,Pune,Hinjewadi,EV_PUN_108,GB/T,60,10,1,0,36.7,28,13.34,31,Cloudy,0,Available
+2025-01-06,12:00,Monday,0,Nashik,Satpur,EV_NAS_117,CHAdeMO,25,8,1,0,30.91,54,13.5,33,Cloudy,0,Available
+2025-01-14,22:00,Tuesday,0,Nagpur,Sitabuldi,EV_NAG_118,GB/T,150,16,3,0,111.01,29,13.83,29,Rainy,0,Available
+2025-01-27,17:00,Monday,0,Mumbai,Bandra,EV_MUM_117,Type 2,150,12,7,0,147.97,38,18.43,27,Rainy,0,Busy
+2025-01-29,16:00,Wednesday,0,Nashik,College Road,EV_NAS_115,CCS2,120,6,2,0,66.18,68,13.61,38,Rainy,1,Available
+2025-01-09,00:00,Thursday,0,Mumbai,Worli,EV_MUM_107,CCS2,25,6,1,0,43.23,29,13.97,33,Hot/Humid,0,Available
+2025-01-10,13:00,Friday,0,Nashik,College Road,EV_NAS_106,Type 2,120,12,6,0,168.85,68,13.93,34,Cloudy,1,Busy
+2025-01-21,11:00,Tuesday,0,Nagpur,MIHAN,EV_NAG_104,Type 2,150,8,5,0,192.08,44,17.93,38,Hot/Humid,0,Busy
+2025-01-18,12:00,Saturday,1,Nagpur,Manish Nagar,EV_NAG_108,Type 2,120,6,2,0,37.74,67,12.84,26,Cloudy,0,Available
+2025-01-07,02:00,Tuesday,0,Mumbai,Lower Parel,EV_MUM_104,CCS2,120,8,1,0,32.57,73,13.73,29,Clear,0,Available
+2025-01-17,09:00,Friday,0,Mumbai,Lower Parel,EV_MUM_108,CHAdeMO,150,16,10,0,291.66,42,17.12,29,Cloudy,0,Busy
+2025-01-21,21:00,Tuesday,0,Nagpur,MIHAN,EV_NAG_114,GB/T,25,10,8,2,233.93,34,17.6,42,Cloudy,1,Busy
+2025-01-16,07:00,Thursday,0,Pune,Baner,EV_PUN_108,CHAdeMO,50,16,9,0,290.79,49,12.49,23,Hot/Humid,1,Busy
+2025-01-21,02:00,Tuesday,0,Pune,Kothrud,EV_PUN_115,CHAdeMO,25,16,3,0,102.84,29,12.38,23,Rainy,0,Available
+2025-01-07,15:00,Tuesday,0,Nagpur,Civil Lines,EV_NAG_107,CHAdeMO,60,6,2,0,76.33,73,12.96,28,Clear,0,Available
+2025-01-23,06:00,Thursday,0,Pune,Baner,EV_PUN_113,Type 2,150,10,4,0,105.31,48,13.03,31,Cloudy,1,Available
+2025-01-04,23:00,Saturday,1,Nashik,Panchavati,EV_NAS_116,CHAdeMO,50,8,3,0,114.04,26,12.52,32,Cloudy,1,Available
+2025-01-24,13:00,Friday,0,Nagpur,Civil Lines,EV_NAG_110,Type 2,50,8,3,0,94.44,66,13.89,29,Cloudy,1,Available
+2025-01-25,15:00,Saturday,1,Thane,Thane West,EV_THA_116,GB/T,50,12,5,0,114.85,59,13.98,27,Cloudy,0,Available
+2025-01-02,02:00,Thursday,0,Mumbai,Powai,EV_MUM_102,CCS2,120,8,1,0,18.25,57,12.91,42,Rainy,0,Available
+2025-01-21,21:00,Tuesday,0,Mumbai,Powai,EV_MUM_120,GB/T,120,16,9,0,337.49,59,18.95,22,Clear,1,Busy
+2025-01-27,22:00,Monday,0,Mumbai,Powai,EV_MUM_114,Type 2,25,16,2,0,64.43,47,12.53,38,Clear,0,Available
+2025-01-12,12:00,Sunday,1,Nashik,College Road,EV_NAS_115,Type 2,50,12,3,0,84.55,55,12.11,24,Cloudy,0,Available
+2025-01-03,15:00,Friday,0,Mumbai,Lower Parel,EV_MUM_114,CHAdeMO,150,16,2,0,61.68,27,13.85,38,Clear,0,Available
+2025-01-19,21:00,Sunday,1,Thane,Kashimira,EV_THA_102,Type 2,60,12,9,0,234.72,61,17.48,28,Clear,0,Busy
+2025-01-11,12:00,Saturday,1,Nashik,CIDCO,EV_NAS_105,CCS2,150,6,2,0,54.39,74,13.23,23,Cloudy,0,Available
+2025-01-25,10:00,Saturday,1,Nagpur,Manish Nagar,EV_NAG_101,CHAdeMO,120,12,8,1,184.12,62,18.32,29,Hot/Humid,0,Busy
+2025-01-10,07:00,Friday,0,Mumbai,Powai,EV_MUM_103,CCS2,60,10,3,0,83.22,30,12.01,34,Rainy,0,Available
+2025-01-12,08:00,Sunday,1,Thane,Wagle Estate,EV_THA_104,Type 2,25,16,14,5,291.04,30,17.71,35,Rainy,1,Fully Congested
+2025-01-20,10:00,Monday,0,Mumbai,Powai,EV_MUM_113,CCS2,60,16,9,0,381.97,40,18.14,34,Hot/Humid,0,Busy
+2025-01-06,04:00,Monday,0,Pune,Kharadi,EV_PUN_109,CHAdeMO,60,10,1,0,29.37,55,13.57,26,Hot/Humid,0,Available
+2025-01-08,23:00,Wednesday,0,Thane,Thane West,EV_THA_116,Type 2,120,12,1,0,26.97,64,12.76,26,Clear,0,Available
+2025-01-11,13:00,Saturday,1,Thane,Wagle Estate,EV_THA_120,Type 2,60,8,3,0,132.13,45,12.58,41,Cloudy,0,Available
+2025-01-26,07:00,Sunday,1,Nashik,CIDCO,EV_NAS_111,GB/T,60,8,4,0,135.96,59,12.36,33,Hot/Humid,0,Busy
+2025-01-24,14:00,Friday,0,Nagpur,Dharampeth,EV_NAG_107,GB/T,60,10,3,0,73.6,67,12.31,35,Clear,1,Available
+2025-01-03,14:00,Friday,0,Nashik,Panchavati,EV_NAS_120,GB/T,150,10,4,0,147.78,59,13.19,39,Hot/Humid,1,Available
+2025-01-25,07:00,Saturday,1,Mumbai,Bandra,EV_MUM_112,Type 2,150,10,7,1,146.02,31,12.52,40,Clear,1,Busy
+2025-01-18,18:00,Saturday,1,Nagpur,Civil Lines,EV_NAG_119,Type 2,120,16,15,7,472.69,47,19.0,34,Cloudy,1,Fully Congested
+2025-01-10,13:00,Friday,0,Nashik,College Road,EV_NAS_103,CCS2,50,8,1,0,32.07,47,12.95,31,Cloudy,0,Available
+2025-01-11,02:00,Saturday,1,Nashik,Panchavati,EV_NAS_110,CCS2,25,8,3,0,129.32,72,12.49,32,Clear,0,Available
+2025-01-06,10:00,Monday,0,Pune,Baner,EV_PUN_118,GB/T,120,12,5,0,143.4,72,18.23,34,Rainy,0,Available
+2025-01-19,13:00,Sunday,1,Pune,Kharadi,EV_PUN_113,CCS2,50,16,6,0,138.29,45,12.39,30,Rainy,0,Available
+2025-01-22,15:00,Wednesday,0,Mumbai,Andheri,EV_MUM_117,CHAdeMO,150,10,4,0,110.01,54,13.23,41,Hot/Humid,1,Available
+2025-01-19,02:00,Sunday,1,Thane,Kashimira,EV_THA_105,CHAdeMO,25,8,2,0,63.58,51,13.19,31,Rainy,0,Available
+2025-01-14,05:00,Tuesday,0,Nagpur,Manish Nagar,EV_NAG_116,Type 2,150,10,1,0,40.73,64,12.11,37,Rainy,0,Available
+2025-01-16,04:00,Thursday,0,Thane,Majiwada,EV_THA_107,GB/T,150,12,4,0,124.78,30,13.13,35,Hot/Humid,1,Available
+2025-01-02,08:00,Thursday,0,Pune,Kothrud,EV_PUN_108,CHAdeMO,50,6,4,2,84.33,74,18.09,40,Hot/Humid,1,Busy
+2025-01-27,01:00,Monday,0,Thane,Kashimira,EV_THA_115,Type 2,120,6,1,0,30.14,47,13.72,42,Clear,0,Available
+2025-01-28,03:00,Tuesday,0,Mumbai,Worli,EV_MUM_108,Type 2,150,8,2,0,78.38,38,13.61,41,Cloudy,1,Available
+2025-01-18,08:00,Saturday,1,Nagpur,Sitabuldi,EV_NAG_120,Type 2,60,16,13,2,520.13,33,18.93,31,Cloudy,0,Busy
+2025-01-09,20:00,Thursday,0,Nashik,College Road,EV_NAS_105,Type 2,50,12,7,0,218.51,61,18.26,32,Rainy,0,Busy
+2025-01-15,02:00,Wednesday,0,Nashik,Panchavati,EV_NAS_103,GB/T,150,10,5,0,168.56,74,13.69,33,Cloudy,1,Busy
+2025-01-21,21:00,Tuesday,0,Mumbai,Worli,EV_MUM_112,CCS2,150,12,10,1,267.17,43,17.68,28,Hot/Humid,1,Busy
+2025-01-19,15:00,Sunday,1,Nagpur,MIHAN,EV_NAG_111,CCS2,25,8,3,0,89.74,25,13.98,42,Clear,1,Available
+2025-01-23,04:00,Thursday,0,Nashik,Indira Nagar,EV_NAS_110,Type 2,60,10,1,0,35.94,66,12.33,42,Clear,0,Available
+2025-01-24,22:00,Friday,0,Nashik,Satpur,EV_NAS_108,GB/T,25,8,2,0,68.06,58,13.36,22,Clear,0,Available
+2025-01-23,10:00,Thursday,0,Mumbai,Bandra,EV_MUM_104,GB/T,50,6,3,0,62.36,48,18.76,24,Hot/Humid,0,Busy
+2025-01-25,04:00,Saturday,1,Pune,Kharadi,EV_PUN_105,CCS2,150,8,3,0,104.87,34,13.84,41,Clear,0,Available
+2025-01-28,06:00,Tuesday,0,Nagpur,Manish Nagar,EV_NAG_103,CCS2,50,12,4,0,105.97,33,12.5,40,Clear,1,Available
+2025-01-18,19:00,Saturday,1,Mumbai,Lower Parel,EV_MUM_120,CHAdeMO,25,10,7,2,136.31,75,18.91,28,Cloudy,0,Busy
+2025-01-04,07:00,Saturday,1,Nashik,Panchavati,EV_NAS_116,CCS2,150,16,4,0,117.45,59,13.37,33,Clear,0,Available
+2025-01-01,18:00,Wednesday,0,Nashik,College Road,EV_NAS_103,CCS2,60,12,8,2,205.88,70,18.0,23,Rainy,0,Busy
+2025-01-23,12:00,Thursday,0,Nashik,Panchavati,EV_NAS_103,Type 2,60,8,2,0,88.61,34,13.07,31,Clear,0,Available
+2025-01-21,20:00,Tuesday,0,Nashik,CIDCO,EV_NAS_103,CHAdeMO,120,12,5,0,105.66,64,18.22,23,Rainy,0,Available
+2025-01-04,00:00,Saturday,1,Thane,Ghodbunder Road,EV_THA_105,CCS2,50,8,2,0,76.49,42,13.47,33,Hot/Humid,0,Available
+2025-01-11,13:00,Saturday,1,Mumbai,Bandra,EV_MUM_109,CCS2,60,6,3,0,94.47,61,12.33,37,Clear,1,Busy
+2025-01-25,03:00,Saturday,1,Pune,Kothrud,EV_PUN_119,CCS2,50,12,3,0,83.48,34,12.36,23,Clear,0,Available
+2025-01-26,22:00,Sunday,1,Mumbai,Powai,EV_MUM_114,Type 2,60,6,2,0,66.86,32,13.0,35,Rainy,0,Available
+2025-01-08,16:00,Wednesday,0,Mumbai,Lower Parel,EV_MUM_102,GB/T,25,16,2,0,60.66,48,12.4,31,Hot/Humid,0,Available
+2025-01-24,19:00,Friday,0,Nagpur,Sitabuldi,EV_NAG_108,GB/T,60,12,5,0,93.23,59,17.69,28,Hot/Humid,0,Available
+2025-01-01,21:00,Wednesday,0,Mumbai,Andheri,EV_MUM_113,CHAdeMO,25,6,3,0,132.78,34,18.42,38,Rainy,0,Busy
+2025-01-30,07:00,Thursday,0,Mumbai,Bandra,EV_MUM_117,GB/T,60,12,2,0,40.04,61,12.12,24,Hot/Humid,0,Available
+2025-01-10,08:00,Friday,0,Pune,Viman Nagar,EV_PUN_111,GB/T,60,8,3,0,65.03,74,18.17,36,Cloudy,0,Available
+2025-01-06,14:00,Monday,0,Pune,Hinjewadi,EV_PUN_115,CHAdeMO,120,8,3,0,90.61,54,12.53,39,Clear,0,Available
+2025-01-06,21:00,Monday,0,Mumbai,Bandra,EV_MUM_110,CCS2,50,10,6,1,191.18,68,17.6,26,Cloudy,0,Busy
+2025-01-13,14:00,Monday,0,Pune,Hinjewadi,EV_PUN_118,Type 2,25,6,1,0,40.42,39,12.26,25,Hot/Humid,0,Available
+2025-01-22,20:00,Wednesday,0,Nashik,Satpur,EV_NAS_103,CHAdeMO,25,12,7,0,278.96,30,18.81,24,Clear,0,Busy
+2025-01-02,14:00,Thursday,0,Thane,Majiwada,EV_THA_102,Type 2,150,12,3,0,68.0,38,13.82,34,Hot/Humid,1,Available
+2025-01-15,04:00,Wednesday,0,Thane,Thane West,EV_THA_102,Type 2,60,10,3,0,85.02,51,12.4,35,Hot/Humid,1,Available
+2025-01-21,17:00,Tuesday,0,Nagpur,MIHAN,EV_NAG_101,GB/T,60,16,10,2,266.83,42,17.36,39,Hot/Humid,1,Busy
+2025-01-08,00:00,Wednesday,0,Thane,Kashimira,EV_THA_109,CCS2,120,6,2,0,49.38,40,12.53,40,Cloudy,0,Available
+2025-01-19,12:00,Sunday,1,Mumbai,Lower Parel,EV_MUM_112,Type 2,50,10,4,0,170.71,26,13.41,40,Rainy,0,Available
+2025-01-19,04:00,Sunday,1,Thane,Kashimira,EV_THA_119,Type 2,120,6,2,0,48.56,39,12.04,27,Cloudy,1,Available
+2025-01-11,19:00,Saturday,1,Nashik,College Road,EV_NAS_107,Type 2,60,16,8,0,296.21,34,18.55,32,Rainy,0,Busy
+2025-01-03,11:00,Friday,0,Nagpur,Sitabuldi,EV_NAG_113,CCS2,60,12,8,2,351.5,66,17.63,32,Cloudy,0,Busy
+2025-01-26,11:00,Sunday,1,Nagpur,Civil Lines,EV_NAG_108,Type 2,120,6,3,0,130.85,61,17.78,31,Cloudy,0,Busy
+2025-01-06,19:00,Monday,0,Nagpur,Dharampeth,EV_NAG_111,Type 2,150,6,3,0,73.28,45,17.34,37,Clear,0,Busy
+2025-01-15,00:00,Wednesday,0,Mumbai,Andheri,EV_MUM_109,Type 2,50,6,2,0,38.6,53,13.47,33,Clear,0,Available
+2025-01-16,12:00,Thursday,0,Pune,Kharadi,EV_PUN_112,GB/T,25,6,1,0,39.58,27,12.59,40,Hot/Humid,0,Available
+2025-01-04,02:00,Saturday,1,Thane,Thane West,EV_THA_111,Type 2,120,16,5,0,210.59,70,12.06,24,Rainy,0,Available
+2025-01-29,13:00,Wednesday,0,Pune,Baner,EV_PUN_106,CCS2,25,16,3,0,112.49,71,13.08,28,Cloudy,0,Available
+2025-01-08,03:00,Wednesday,0,Thane,Thane West,EV_THA_102,GB/T,150,12,2,0,40.73,67,13.25,26,Hot/Humid,0,Available
+2025-01-04,00:00,Saturday,1,Nashik,Indira Nagar,EV_NAS_107,Type 2,60,12,4,0,122.86,67,12.53,37,Clear,0,Available
+2025-01-06,11:00,Monday,0,Nagpur,Manish Nagar,EV_NAG_113,CHAdeMO,50,10,5,0,120.54,42,18.13,23,Hot/Humid,0,Busy
+2025-01-03,21:00,Friday,0,Pune,Hinjewadi,EV_PUN_112,GB/T,150,16,10,1,440.72,68,18.73,39,Rainy,0,Busy
+2025-01-29,07:00,Wednesday,0,Nashik,CIDCO,EV_NAS_116,CHAdeMO,25,12,1,0,22.67,35,13.94,23,Hot/Humid,0,Available
+2025-01-02,13:00,Thursday,0,Pune,Viman Nagar,EV_PUN_103,GB/T,50,6,1,0,20.35,60,12.79,41,Rainy,0,Available
+2025-01-17,14:00,Friday,0,Thane,Thane West,EV_THA_101,GB/T,25,16,4,0,153.9,31,13.85,26,Hot/Humid,0,Available
+2025-01-26,09:00,Sunday,1,Nagpur,Dharampeth,EV_NAG_118,CHAdeMO,120,12,10,0,226.49,50,17.29,34,Cloudy,1,Busy
+2025-01-02,12:00,Thursday,0,Nagpur,Manish Nagar,EV_NAG_111,Type 2,25,10,1,0,26.4,56,13.72,30,Hot/Humid,0,Available
+2025-01-05,09:00,Sunday,1,Mumbai,Lower Parel,EV_MUM_115,CHAdeMO,60,8,4,0,170.65,51,18.48,41,Hot/Humid,0,Busy
+2025-01-27,01:00,Monday,0,Nagpur,Sitabuldi,EV_NAG_117,Type 2,25,16,5,0,208.71,26,12.35,38,Cloudy,1,Available
+2025-01-08,01:00,Wednesday,0,Pune,Hinjewadi,EV_PUN_115,CCS2,60,16,5,0,143.59,32,13.36,30,Rainy,0,Available
+2025-01-16,19:00,Thursday,0,Pune,Kothrud,EV_PUN_115,Type 2,120,10,6,2,242.6,30,17.57,33,Cloudy,0,Busy
+2025-01-06,18:00,Monday,0,Nashik,College Road,EV_NAS_107,Type 2,50,6,4,1,170.44,66,17.35,30,Rainy,1,Busy
+2025-01-09,19:00,Thursday,0,Mumbai,Lower Parel,EV_MUM_110,CHAdeMO,120,12,8,1,290.27,64,17.79,33,Hot/Humid,1,Busy
+2025-01-17,21:00,Friday,0,Mumbai,Bandra,EV_MUM_112,CHAdeMO,60,10,5,0,176.48,42,17.52,37,Clear,0,Busy
+2025-01-05,16:00,Sunday,1,Thane,Ghodbunder Road,EV_THA_108,CCS2,150,12,5,0,224.66,41,13.81,32,Hot/Humid,0,Available
+2025-01-24,01:00,Friday,0,Nashik,Panchavati,EV_NAS_119,Type 2,60,10,5,0,158.49,35,13.68,39,Rainy,1,Busy
+2025-01-10,03:00,Friday,0,Nagpur,MIHAN,EV_NAG_116,Type 2,60,8,1,0,38.09,44,12.84,32,Rainy,0,Available
+2025-01-09,18:00,Thursday,0,Thane,Thane West,EV_THA_110,GB/T,25,8,4,0,126.05,68,17.76,23,Hot/Humid,0,Busy
+2025-01-02,04:00,Thursday,0,Thane,Wagle Estate,EV_THA_105,Type 2,60,8,2,0,78.06,56,12.67,40,Hot/Humid,1,Available
+2025-01-21,01:00,Tuesday,0,Pune,Kothrud,EV_PUN_101,GB/T,60,6,1,0,21.49,52,13.27,27,Rainy,0,Available
+2025-01-16,12:00,Thursday,0,Nashik,Panchavati,EV_NAS_101,CCS2,150,16,5,0,115.73,68,12.01,33,Rainy,0,Available
+2025-01-23,11:00,Thursday,0,Pune,Viman Nagar,EV_PUN_110,Type 2,25,6,2,0,52.1,43,17.91,38,Hot/Humid,0,Available
+2025-01-17,10:00,Friday,0,Nagpur,Civil Lines,EV_NAG_114,Type 2,60,12,5,0,92.58,39,18.45,33,Hot/Humid,0,Available
+2025-01-24,00:00,Friday,0,Pune,Viman Nagar,EV_PUN_119,Type 2,25,10,2,0,77.65,64,12.1,42,Cloudy,0,Available
+2025-01-21,00:00,Tuesday,0,Mumbai,Bandra,EV_MUM_102,CCS2,120,12,3,0,110.85,38,13.39,34,Hot/Humid,0,Available
+2025-01-14,21:00,Tuesday,0,Mumbai,Andheri,EV_MUM_104,CHAdeMO,150,16,8,0,169.43,32,18.57,35,Rainy,0,Busy
+2025-01-20,06:00,Monday,0,Nashik,Indira Nagar,EV_NAS_109,Type 2,60,12,1,0,42.58,69,13.87,31,Hot/Humid,0,Available
+2025-01-01,00:00,Wednesday,0,Thane,Ghodbunder Road,EV_THA_103,CCS2,150,6,2,0,75.07,31,13.81,26,Hot/Humid,0,Available
+2025-01-10,08:00,Friday,0,Pune,Kharadi,EV_PUN_115,CCS2,25,10,5,0,147.51,32,17.19,23,Rainy,0,Busy
+2025-01-28,04:00,Tuesday,0,Mumbai,Bandra,EV_MUM_106,CHAdeMO,60,6,2,0,56.12,46,12.37,41,Hot/Humid,0,Available
+2025-01-15,08:00,Wednesday,0,Nashik,Panchavati,EV_NAS_113,GB/T,120,6,3,0,133.51,35,17.21,25,Rainy,0,Busy
+2025-01-26,18:00,Sunday,1,Nagpur,Manish Nagar,EV_NAG_115,Type 2,150,8,6,1,257.1,32,18.78,33,Hot/Humid,0,Busy
+2025-01-03,08:00,Friday,0,Nashik,College Road,EV_NAS_111,CCS2,150,8,4,0,124.05,67,18.35,32,Rainy,0,Busy
+2025-01-27,17:00,Monday,0,Nashik,Indira Nagar,EV_NAS_120,CCS2,25,8,6,0,229.73,45,17.48,38,Rainy,1,Busy
+2025-01-17,07:00,Friday,0,Thane,Majiwada,EV_THA_118,GB/T,120,16,6,0,180.59,56,12.89,24,Rainy,1,Available
+2025-01-24,20:00,Friday,0,Mumbai,Worli,EV_MUM_101,CCS2,120,16,10,2,352.14,57,18.12,23,Hot/Humid,0,Busy
+2025-01-12,01:00,Sunday,1,Nashik,Satpur,EV_NAS_108,GB/T,60,8,3,0,54.18,47,13.66,33,Hot/Humid,1,Available
+2025-01-17,11:00,Friday,0,Thane,Kashimira,EV_THA_104,CCS2,50,16,9,0,209.61,32,18.86,26,Hot/Humid,1,Busy
+2025-01-15,06:00,Wednesday,0,Nashik,Indira Nagar,EV_NAS_111,CCS2,120,12,3,0,91.05,62,13.91,42,Clear,0,Available
+2025-01-01,16:00,Wednesday,0,Pune,Kharadi,EV_PUN_102,GB/T,150,8,2,0,75.45,33,12.21,38,Hot/Humid,0,Available
+2025-01-29,10:00,Wednesday,0,Nagpur,Civil Lines,EV_NAG_117,GB/T,120,10,8,1,317.84,33,17.83,30,Rainy,1,Busy
+2025-01-27,22:00,Monday,0,Nagpur,Sitabuldi,EV_NAG_118,CHAdeMO,150,10,2,0,73.08,68,12.27,28,Rainy,0,Available
+2025-01-18,22:00,Saturday,1,Pune,Baner,EV_PUN_111,CCS2,60,16,10,1,416.92,52,13.62,40,Hot/Humid,1,Busy
+2025-01-01,12:00,Wednesday,0,Nagpur,Dharampeth,EV_NAG_105,CCS2,25,10,3,0,65.86,28,13.38,30,Rainy,0,Available
+2025-01-25,17:00,Saturday,1,Thane,Ghodbunder Road,EV_THA_102,CHAdeMO,120,16,12,1,292.98,75,18.59,41,Clear,0,Busy
+2025-01-30,12:00,Thursday,0,Thane,Majiwada,EV_THA_113,GB/T,60,12,1,0,40.41,65,13.41,22,Clear,0,Available
+2025-01-18,23:00,Saturday,1,Thane,Kashimira,EV_THA_120,Type 2,50,6,3,0,69.15,36,13.47,36,Cloudy,0,Busy
+2025-01-02,13:00,Thursday,0,Mumbai,Worli,EV_MUM_109,CHAdeMO,50,12,1,0,37.16,34,12.08,40,Rainy,0,Available
+2025-01-02,20:00,Thursday,0,Thane,Kashimira,EV_THA_120,CHAdeMO,120,8,4,0,128.23,75,18.01,24,Cloudy,0,Busy
+2025-01-18,12:00,Saturday,1,Nashik,CIDCO,EV_NAS_103,CHAdeMO,50,8,2,0,87.32,64,13.06,32,Rainy,0,Available
+2025-01-04,21:00,Saturday,1,Nagpur,Dharampeth,EV_NAG_112,GB/T,50,6,4,1,99.71,71,17.57,23,Rainy,0,Busy
+2025-01-17,16:00,Friday,0,Nagpur,Sitabuldi,EV_NAG_115,GB/T,25,6,1,0,43.6,35,13.94,42,Cloudy,0,Available
+2025-01-01,20:00,Wednesday,0,Nagpur,Civil Lines,EV_NAG_103,Type 2,50,12,6,0,212.74,29,18.49,25,Hot/Humid,0,Busy
+2025-01-15,22:00,Wednesday,0,Pune,Hinjewadi,EV_PUN_111,CCS2,25,16,5,0,99.51,39,13.82,23,Clear,0,Available
+2025-01-15,20:00,Wednesday,0,Nashik,Panchavati,EV_NAS_113,GB/T,60,16,8,0,157.66,72,18.17,34,Clear,0,Busy
+2025-01-30,16:00,Thursday,0,Mumbai,Andheri,EV_MUM_104,CHAdeMO,60,6,2,0,61.6,59,12.44,31,Clear,1,Available
+2025-01-10,20:00,Friday,0,Nashik,CIDCO,EV_NAS_105,CHAdeMO,60,6,2,0,66.93,50,18.07,39,Clear,0,Available
+2025-01-07,23:00,Tuesday,0,Mumbai,Andheri,EV_MUM_112,Type 2,120,10,1,0,23.25,36,13.34,27,Rainy,0,Available
+2025-01-28,17:00,Tuesday,0,Nagpur,Dharampeth,EV_NAG_115,CCS2,60,16,7,0,218.08,46,17.71,30,Clear,0,Available
+2025-01-10,19:00,Friday,0,Pune,Hinjewadi,EV_PUN_103,Type 2,60,10,5,0,183.62,34,18.13,36,Hot/Humid,0,Busy
+2025-01-14,05:00,Tuesday,0,Thane,Thane West,EV_THA_101,CHAdeMO,50,10,3,0,64.88,71,12.66,42,Rainy,1,Available
+2025-01-15,11:00,Wednesday,0,Nashik,Panchavati,EV_NAS_110,GB/T,150,8,5,2,116.52,71,18.77,27,Clear,0,Busy
+2025-01-29,00:00,Wednesday,0,Mumbai,Bandra,EV_MUM_117,CCS2,150,16,5,0,125.18,59,12.94,40,Hot/Humid,0,Available
+2025-01-13,07:00,Monday,0,Pune,Kothrud,EV_PUN_119,CHAdeMO,50,16,3,0,54.86,40,13.7,38,Hot/Humid,0,Available
+2025-01-25,16:00,Saturday,1,Nagpur,MIHAN,EV_NAG_105,GB/T,50,12,5,0,216.79,27,12.44,40,Rainy,0,Available
+2025-01-03,08:00,Friday,0,Nashik,Indira Nagar,EV_NAS_112,Type 2,25,12,6,0,250.81,27,18.96,38,Rainy,0,Busy
+2025-01-23,16:00,Thursday,0,Thane,Majiwada,EV_THA_109,CHAdeMO,150,6,2,0,63.9,49,13.95,34,Rainy,1,Available
+2025-01-13,11:00,Monday,0,Pune,Baner,EV_PUN_112,GB/T,120,8,4,0,80.33,66,17.56,38,Clear,0,Busy
+2025-01-06,11:00,Monday,0,Pune,Viman Nagar,EV_PUN_120,CCS2,50,12,6,0,185.6,62,17.32,32,Hot/Humid,0,Busy
+2025-01-08,01:00,Wednesday,0,Nashik,College Road,EV_NAS_105,Type 2,50,10,1,0,42.91,58,13.92,40,Clear,0,Available
+2025-01-21,00:00,Tuesday,0,Nagpur,Civil Lines,EV_NAG_110,CCS2,50,8,4,0,95.69,51,13.2,41,Hot/Humid,1,Busy
+2025-01-20,21:00,Monday,0,Nagpur,MIHAN,EV_NAG_117,CHAdeMO,50,12,5,0,107.85,26,17.4,36,Cloudy,0,Available
+2025-01-27,04:00,Monday,0,Nagpur,Manish Nagar,EV_NAG_120,CCS2,50,16,5,0,157.95,32,12.19,41,Hot/Humid,0,Available
+2025-01-18,00:00,Saturday,1,Pune,Baner,EV_PUN_114,GB/T,60,12,6,0,235.91,49,12.7,38,Clear,1,Busy
+2025-01-14,04:00,Tuesday,0,Nagpur,Dharampeth,EV_NAG_109,GB/T,50,6,2,0,74.29,75,12.01,31,Clear,1,Available
+2025-01-17,00:00,Friday,0,Nagpur,Dharampeth,EV_NAG_113,Type 2,60,16,2,0,49.7,59,12.85,33,Hot/Humid,0,Available
+2025-01-09,21:00,Thursday,0,Thane,Kashimira,EV_THA_113,Type 2,120,12,6,0,149.11,44,18.16,27,Hot/Humid,0,Busy
+2025-01-28,21:00,Tuesday,0,Nashik,Indira Nagar,EV_NAS_104,Type 2,120,10,5,0,198.12,64,18.39,25,Rainy,0,Busy
+2025-01-13,20:00,Monday,0,Mumbai,Lower Parel,EV_MUM_101,CCS2,50,10,6,0,168.08,63,17.08,41,Hot/Humid,1,Busy
+2025-01-20,20:00,Monday,0,Nashik,Panchavati,EV_NAS_117,CHAdeMO,150,8,5,2,215.65,58,17.57,27,Clear,1,Busy
+2025-01-17,16:00,Friday,0,Mumbai,Powai,EV_MUM_108,Type 2,25,6,2,0,89.83,74,12.8,29,Cloudy,0,Available
+2025-01-19,06:00,Sunday,1,Nashik,Panchavati,EV_NAS_117,CCS2,25,16,7,0,298.94,47,12.69,39,Clear,0,Available
+2025-01-20,06:00,Monday,0,Thane,Ghodbunder Road,EV_THA_115,GB/T,150,6,1,0,33.08,57,12.59,30,Clear,0,Available
+2025-01-09,17:00,Thursday,0,Mumbai,Powai,EV_MUM_119,CHAdeMO,120,10,8,1,291.22,62,18.72,40,Hot/Humid,1,Busy
+2025-01-09,02:00,Thursday,0,Nashik,College Road,EV_NAS_113,Type 2,50,6,1,0,36.92,41,12.5,35,Cloudy,0,Available
+2025-01-22,23:00,Wednesday,0,Mumbai,Worli,EV_MUM_111,CCS2,150,16,2,0,50.53,72,13.37,37,Rainy,0,Available
+2025-01-24,06:00,Friday,0,Pune,Kharadi,EV_PUN_108,Type 2,60,16,5,0,138.06,74,12.21,29,Rainy,0,Available
+2025-01-20,00:00,Monday,0,Mumbai,Worli,EV_MUM_118,CCS2,120,16,3,0,124.37,56,12.37,41,Cloudy,0,Available
+2025-01-13,07:00,Monday,0,Nagpur,Sitabuldi,EV_NAG_119,Type 2,25,12,2,0,82.46,74,12.35,37,Hot/Humid,0,Available
+2025-01-15,10:00,Wednesday,0,Mumbai,Powai,EV_MUM_101,CCS2,50,16,7,0,288.89,36,18.1,40,Hot/Humid,0,Available
+2025-01-16,19:00,Thursday,0,Pune,Kothrud,EV_PUN_111,CHAdeMO,50,10,5,0,139.29,50,17.56,35,Hot/Humid,0,Busy
+2025-01-05,18:00,Sunday,1,Pune,Baner,EV_PUN_108,CCS2,60,8,8,3,316.81,72,17.3,39,Rainy,1,Fully Congested
+2025-01-14,15:00,Tuesday,0,Mumbai,Lower Parel,EV_MUM_105,CHAdeMO,120,8,1,0,19.62,41,12.95,30,Cloudy,0,Available
+2025-01-24,10:00,Friday,0,Mumbai,Worli,EV_MUM_109,CHAdeMO,60,10,5,0,207.09,63,17.4,33,Cloudy,0,Busy
+2025-01-06,09:00,Monday,0,Nagpur,Civil Lines,EV_NAG_112,CHAdeMO,150,10,5,0,152.61,34,18.74,36,Hot/Humid,0,Busy
+2025-01-21,19:00,Tuesday,0,Thane,Wagle Estate,EV_THA_119,GB/T,25,10,4,0,142.53,70,17.53,27,Clear,0,Available
+2025-01-29,14:00,Wednesday,0,Nashik,Satpur,EV_NAS_112,GB/T,120,8,1,0,35.87,72,13.4,27,Rainy,0,Available
+2025-01-06,12:00,Monday,0,Mumbai,Lower Parel,EV_MUM_104,CCS2,25,12,1,0,32.15,30,12.21,39,Hot/Humid,0,Available
+2025-01-03,20:00,Friday,0,Nagpur,MIHAN,EV_NAG_113,CHAdeMO,50,8,6,2,243.84,26,17.07,31,Rainy,1,Busy
+2025-01-28,15:00,Tuesday,0,Thane,Thane West,EV_THA_115,CHAdeMO,150,12,3,0,105.11,65,13.75,26,Hot/Humid,0,Available
+2025-01-21,20:00,Tuesday,0,Nashik,CIDCO,EV_NAS_118,CHAdeMO,60,12,7,0,184.19,51,17.52,39,Hot/Humid,0,Busy
+2025-01-01,16:00,Wednesday,0,Thane,Majiwada,EV_THA_105,CHAdeMO,60,12,3,0,130.7,55,12.6,39,Hot/Humid,0,Available
+2025-01-20,07:00,Monday,0,Nashik,Satpur,EV_NAS_101,CHAdeMO,50,8,3,0,111.91,66,12.78,39,Hot/Humid,1,Available
+2025-01-09,02:00,Thursday,0,Nashik,Indira Nagar,EV_NAS_114,Type 2,150,6,1,0,22.92,43,12.22,31,Cloudy,0,Available
+2025-01-15,08:00,Wednesday,0,Nashik,CIDCO,EV_NAS_120,GB/T,50,16,6,0,111.59,31,17.56,22,Cloudy,0,Available
+2025-01-24,00:00,Friday,0,Pune,Kharadi,EV_PUN_108,CCS2,50,10,2,0,78.43,56,14.0,37,Clear,0,Available
+2025-01-11,02:00,Saturday,1,Nashik,College Road,EV_NAS_105,CCS2,60,10,5,0,200.33,25,12.24,24,Hot/Humid,1,Busy
+2025-01-25,14:00,Saturday,1,Pune,Kharadi,EV_PUN_108,CCS2,50,10,3,0,129.83,35,13.26,25,Hot/Humid,0,Available
+2025-01-17,03:00,Friday,0,Mumbai,Powai,EV_MUM_109,GB/T,60,8,2,0,88.56,40,13.27,33,Rainy,0,Available
+2025-01-06,08:00,Monday,0,Thane,Majiwada,EV_THA_119,CCS2,120,12,6,0,219.52,34,17.74,22,Rainy,0,Busy
+2025-01-06,15:00,Monday,0,Mumbai,Lower Parel,EV_MUM_103,CHAdeMO,25,6,2,0,42.79,39,12.63,33,Clear,0,Available
+2025-01-26,14:00,Sunday,1,Nagpur,Sitabuldi,EV_NAG_107,CCS2,120,12,6,0,222.47,60,12.59,26,Cloudy,0,Busy
+2025-01-19,05:00,Sunday,1,Nashik,Indira Nagar,EV_NAS_118,CHAdeMO,60,8,2,0,60.27,41,13.08,30,Hot/Humid,0,Available
+2025-01-25,20:00,Saturday,1,Nashik,College Road,EV_NAS_117,GB/T,50,8,6,1,224.8,67,18.93,41,Clear,0,Busy
+2025-01-17,21:00,Friday,0,Nashik,Indira Nagar,EV_NAS_116,Type 2,150,6,4,0,128.51,29,17.09,32,Cloudy,1,Busy
+2025-01-28,01:00,Tuesday,0,Pune,Viman Nagar,EV_PUN_107,CCS2,120,12,3,0,107.29,58,13.25,25,Rainy,0,Available
+2025-01-02,11:00,Thursday,0,Nagpur,Sitabuldi,EV_NAG_108,CCS2,25,6,5,1,198.14,28,17.72,42,Rainy,1,Busy
+2025-01-26,22:00,Sunday,1,Nashik,Satpur,EV_NAS_102,CHAdeMO,150,8,2,0,87.87,31,12.2,24,Clear,0,Available
+2025-01-13,06:00,Monday,0,Pune,Baner,EV_PUN_107,Type 2,150,16,8,0,221.32,54,13.41,39,Rainy,1,Busy
+2025-01-06,05:00,Monday,0,Nashik,College Road,EV_NAS_118,GB/T,150,10,5,0,164.26,45,13.69,27,Cloudy,1,Busy
+2025-01-27,23:00,Monday,0,Nashik,Panchavati,EV_NAS_111,Type 2,150,12,2,0,60.16,50,12.0,34,Rainy,0,Available
+2025-01-20,00:00,Monday,0,Mumbai,Andheri,EV_MUM_117,Type 2,60,10,1,0,18.59,69,13.64,31,Clear,0,Available
+2025-01-18,18:00,Saturday,1,Nagpur,Civil Lines,EV_NAG_119,Type 2,25,10,5,0,139.56,62,17.5,36,Clear,0,Busy
+2025-01-03,18:00,Friday,0,Thane,Thane West,EV_THA_113,Type 2,25,16,8,0,321.02,31,18.19,37,Cloudy,0,Busy
+2025-01-24,18:00,Friday,0,Thane,Majiwada,EV_THA_113,CCS2,25,6,4,0,152.75,63,18.86,33,Cloudy,1,Busy
+2025-01-10,16:00,Friday,0,Nashik,College Road,EV_NAS_102,CHAdeMO,150,12,1,0,44.22,73,13.19,32,Rainy,0,Available
+2025-01-08,13:00,Wednesday,0,Nagpur,Dharampeth,EV_NAG_110,GB/T,50,6,1,0,32.8,41,12.17,32,Rainy,0,Available
+2025-01-25,22:00,Saturday,1,Nagpur,Manish Nagar,EV_NAG_105,Type 2,120,8,5,2,173.16,72,13.05,37,Rainy,1,Busy
+2025-01-09,13:00,Thursday,0,Pune,Hinjewadi,EV_PUN_111,CCS2,25,10,2,0,54.6,66,12.05,35,Hot/Humid,0,Available
+2025-01-12,19:00,Sunday,1,Thane,Ghodbunder Road,EV_THA_115,Type 2,120,8,6,2,246.15,32,18.48,29,Clear,0,Busy
+2025-01-30,04:00,Thursday,0,Pune,Baner,EV_PUN_110,CCS2,60,10,4,0,94.57,59,12.42,31,Clear,1,Available
+2025-01-25,08:00,Saturday,1,Nagpur,Civil Lines,EV_NAG_118,GB/T,150,16,14,2,348.56,28,17.57,22,Rainy,1,Fully Congested
+2025-01-02,14:00,Thursday,0,Nagpur,Sitabuldi,EV_NAG_101,CCS2,120,12,1,0,24.24,49,13.02,33,Cloudy,0,Available
+2025-01-16,19:00,Thursday,0,Mumbai,Andheri,EV_MUM_118,CCS2,50,6,4,0,98.72,58,17.61,38,Rainy,1,Busy
+2025-01-24,05:00,Friday,0,Nashik,Panchavati,EV_NAS_101,CHAdeMO,60,16,2,0,50.9,28,13.25,42,Cloudy,0,Available
+2025-01-18,08:00,Saturday,1,Nashik,College Road,EV_NAS_108,Type 2,60,16,12,2,414.43,65,18.37,26,Hot/Humid,0,Busy
+2025-01-19,04:00,Sunday,1,Nashik,Indira Nagar,EV_NAS_114,CHAdeMO,150,8,2,0,67.38,68,13.6,36,Cloudy,0,Available
+2025-01-23,22:00,Thursday,0,Pune,Kothrud,EV_PUN_117,Type 2,120,16,2,0,64.78,71,12.24,42,Rainy,0,Available
+2025-01-24,00:00,Friday,0,Thane,Ghodbunder Road,EV_THA_111,GB/T,120,8,1,0,20.88,36,12.05,36,Cloudy,0,Available
+2025-01-09,19:00,Thursday,0,Nagpur,Civil Lines,EV_NAG_119,Type 2,150,12,5,0,108.1,63,17.94,29,Rainy,0,Available
+2025-01-28,12:00,Tuesday,0,Thane,Ghodbunder Road,EV_THA_116,GB/T,50,6,0,0,0.0,51,12.45,28,Rainy,0,Available
+2025-01-03,05:00,Friday,0,Pune,Viman Nagar,EV_PUN_115,GB/T,60,6,2,0,68.83,49,13.44,29,Hot/Humid,1,Available
+2025-01-24,18:00,Friday,0,Nashik,CIDCO,EV_NAS_120,CCS2,150,6,5,0,160.02,50,18.97,36,Clear,1,Busy
+2025-01-13,16:00,Monday,0,Mumbai,Powai,EV_MUM_102,Type 2,60,10,3,0,91.37,52,12.59,34,Hot/Humid,0,Available
+2025-01-29,04:00,Wednesday,0,Mumbai,Powai,EV_MUM_115,GB/T,25,10,2,0,60.35,36,12.91,27,Clear,0,Available
+2025-01-03,08:00,Friday,0,Pune,Kharadi,EV_PUN_111,Type 2,25,6,4,2,148.39,71,18.58,25,Clear,1,Busy
+2025-01-06,12:00,Monday,0,Nagpur,Civil Lines,EV_NAG_118,GB/T,25,8,1,0,22.83,70,12.1,32,Rainy,0,Available
+2025-01-24,14:00,Friday,0,Thane,Thane West,EV_THA_110,Type 2,25,10,2,0,36.66,56,13.71,28,Rainy,0,Available
+2025-01-20,15:00,Monday,0,Nagpur,Dharampeth,EV_NAG_108,Type 2,150,16,6,0,205.22,40,13.76,36,Hot/Humid,1,Available
+2025-01-21,17:00,Tuesday,0,Thane,Kashimira,EV_THA_107,CCS2,50,6,2,0,72.02,63,17.6,23,Rainy,0,Available
+2025-01-04,13:00,Saturday,1,Mumbai,Bandra,EV_MUM_106,Type 2,60,6,3,0,116.25,45,12.74,36,Rainy,0,Busy
+2025-01-25,13:00,Saturday,1,Nashik,College Road,EV_NAS_118,CCS2,60,10,4,0,107.55,51,13.05,26,Hot/Humid,0,Available
+2025-01-02,03:00,Thursday,0,Pune,Baner,EV_PUN_119,CCS2,120,16,2,0,89.73,47,13.85,35,Cloudy,0,Available
+2025-01-16,16:00,Thursday,0,Nagpur,Civil Lines,EV_NAG_116,GB/T,50,6,0,0,0.0,75,12.24,31,Rainy,0,Available
+2025-01-14,13:00,Tuesday,0,Pune,Baner,EV_PUN_102,CHAdeMO,60,10,3,0,118.01,44,12.6,22,Rainy,0,Available
+2025-01-25,00:00,Saturday,1,Nagpur,Sitabuldi,EV_NAG_104,CHAdeMO,60,8,4,0,107.7,46,13.84,40,Hot/Humid,0,Busy
+2025-01-26,01:00,Sunday,1,Nashik,Panchavati,EV_NAS_105,GB/T,50,12,4,0,172.2,28,13.67,39,Hot/Humid,0,Available
+2025-01-24,21:00,Friday,0,Thane,Kashimira,EV_THA_111,CCS2,50,10,6,0,162.94,49,18.25,33,Cloudy,0,Busy
+2025-01-20,12:00,Monday,0,Pune,Baner,EV_PUN_106,CCS2,60,12,2,0,83.36,48,12.9,23,Cloudy,0,Available
+2025-01-17,09:00,Friday,0,Thane,Ghodbunder Road,EV_THA_106,CCS2,60,6,3,0,118.72,57,17.31,28,Clear,0,Busy
+2025-01-24,16:00,Friday,0,Thane,Wagle Estate,EV_THA_110,CHAdeMO,50,6,1,0,30.4,70,13.73,38,Clear,0,Available
+2025-01-10,01:00,Friday,0,Mumbai,Bandra,EV_MUM_120,CCS2,60,10,2,0,37.21,73,12.62,23,Hot/Humid,0,Available
+2025-01-07,06:00,Tuesday,0,Pune,Kothrud,EV_PUN_110,CHAdeMO,150,8,1,0,25.39,25,13.92,36,Cloudy,0,Available
+2025-01-04,06:00,Saturday,1,Nagpur,Civil Lines,EV_NAG_118,CHAdeMO,150,10,5,0,167.5,35,12.14,30,Cloudy,0,Busy
+2025-01-18,14:00,Saturday,1,Nagpur,Sitabuldi,EV_NAG_102,Type 2,25,6,2,0,59.03,36,13.41,23,Hot/Humid,0,Available
+2025-01-20,11:00,Monday,0,Nagpur,Manish Nagar,EV_NAG_110,CHAdeMO,50,12,5,0,103.13,44,18.37,36,Clear,0,Available
+2025-01-08,07:00,Wednesday,0,Nashik,Panchavati,EV_NAS_105,CHAdeMO,60,10,3,0,90.72,26,12.13,27,Hot/Humid,0,Available
+2025-01-16,14:00,Thursday,0,Mumbai,Andheri,EV_MUM_106,CHAdeMO,60,6,1,0,26.8,66,12.14,38,Rainy,0,Available
+2025-01-15,12:00,Wednesday,0,Thane,Kashimira,EV_THA_119,GB/T,50,12,4,0,79.13,38,13.63,39,Rainy,0,Available
+2025-01-26,13:00,Sunday,1,Nagpur,Manish Nagar,EV_NAG_119,CHAdeMO,150,16,7,0,284.15,32,13.18,27,Rainy,0,Available
+2025-01-18,03:00,Saturday,1,Nashik,Satpur,EV_NAS_115,Type 2,60,16,6,0,232.96,49,12.65,24,Hot/Humid,0,Available
+2025-01-07,04:00,Tuesday,0,Mumbai,Bandra,EV_MUM_119,CCS2,50,16,3,0,90.22,38,13.36,36,Rainy,0,Available
+2025-01-19,21:00,Sunday,1,Thane,Thane West,EV_THA_110,GB/T,60,16,11,1,449.75,43,17.12,40,Clear,0,Busy
+2025-01-01,22:00,Wednesday,0,Nagpur,Dharampeth,EV_NAG_118,CHAdeMO,25,16,3,0,85.94,45,13.42,22,Cloudy,0,Available
+2025-01-14,17:00,Tuesday,0,Nashik,Panchavati,EV_NAS_107,Type 2,120,10,8,1,177.32,67,17.25,28,Rainy,1,Busy
+2025-01-21,00:00,Tuesday,0,Mumbai,Bandra,EV_MUM_105,GB/T,120,12,3,0,123.67,75,13.39,24,Rainy,0,Available
+2025-01-06,14:00,Monday,0,Nashik,CIDCO,EV_NAS_117,GB/T,150,12,1,0,34.32,61,13.0,34,Hot/Humid,0,Available
+2025-01-09,13:00,Thursday,0,Pune,Baner,EV_PUN_118,CHAdeMO,25,6,3,0,101.0,69,12.16,40,Clear,1,Busy
+2025-01-15,16:00,Wednesday,0,Nagpur,Sitabuldi,EV_NAG_103,CCS2,50,16,4,0,158.19,44,13.23,42,Hot/Humid,0,Available
+2025-01-25,00:00,Saturday,1,Thane,Kashimira,EV_THA_116,GB/T,150,10,3,0,77.43,27,13.39,40,Hot/Humid,0,Available
+2025-01-24,18:00,Friday,0,Nagpur,Sitabuldi,EV_NAG_109,CCS2,120,10,5,0,199.2,64,17.05,40,Rainy,0,Busy
+2025-01-05,16:00,Sunday,1,Nashik,College Road,EV_NAS_103,CHAdeMO,60,10,3,0,55.15,32,13.21,41,Rainy,0,Available
+2025-01-22,14:00,Wednesday,0,Nagpur,MIHAN,EV_NAG_112,Type 2,60,6,2,0,54.51,30,13.93,37,Rainy,0,Available
+2025-01-27,15:00,Monday,0,Nagpur,MIHAN,EV_NAG_114,GB/T,50,10,1,0,19.47,41,13.51,42,Hot/Humid,0,Available
+2025-01-06,14:00,Monday,0,Mumbai,Bandra,EV_MUM_113,GB/T,60,12,2,0,61.63,34,13.06,39,Hot/Humid,0,Available
+2025-01-10,14:00,Friday,0,Nashik,College Road,EV_NAS_113,CHAdeMO,150,12,4,0,137.93,66,13.72,25,Clear,0,Available
+2025-01-09,03:00,Thursday,0,Thane,Thane West,EV_THA_109,GB/T,120,8,2,0,52.92,25,13.35,40,Rainy,0,Available
+2025-01-14,03:00,Tuesday,0,Mumbai,Bandra,EV_MUM_117,CCS2,120,6,1,0,18.64,30,12.11,29,Cloudy,0,Available
+2025-01-20,20:00,Monday,0,Nagpur,MIHAN,EV_NAG_104,CCS2,25,8,5,1,129.77,67,18.87,34,Rainy,0,Busy
+2025-01-25,13:00,Saturday,1,Nashik,Satpur,EV_NAS_111,CHAdeMO,50,10,3,0,134.67,41,13.91,30,Clear,0,Available
+2025-01-15,02:00,Wednesday,0,Thane,Ghodbunder Road,EV_THA_116,Type 2,150,16,5,0,193.78,38,13.23,27,Hot/Humid,1,Available
+2025-01-23,08:00,Thursday,0,Mumbai,Worli,EV_MUM_104,CCS2,25,6,3,0,126.62,34,18.31,40,Clear,0,Busy
+2025-01-22,12:00,Wednesday,0,Mumbai,Bandra,EV_MUM_109,Type 2,60,12,2,0,61.82,50,13.69,40,Hot/Humid,0,Available
+2025-01-08,00:00,Wednesday,0,Mumbai,Powai,EV_MUM_113,GB/T,25,6,1,0,27.86,46,12.16,32,Cloudy,0,Available
+2025-01-21,06:00,Tuesday,0,Nashik,Satpur,EV_NAS_106,CCS2,120,10,5,0,155.68,65,12.88,31,Rainy,1,Busy
+2025-01-02,06:00,Thursday,0,Pune,Viman Nagar,EV_PUN_101,Type 2,120,12,2,0,88.2,26,12.07,24,Hot/Humid,0,Available
+2025-01-26,23:00,Sunday,1,Mumbai,Andheri,EV_MUM_102,GB/T,25,16,11,0,418.09,39,13.85,42,Rainy,1,Busy
+2025-01-16,20:00,Thursday,0,Mumbai,Lower Parel,EV_MUM_101,GB/T,150,6,2,0,84.85,75,17.19,29,Clear,0,Available
+2025-01-27,18:00,Monday,0,Nagpur,MIHAN,EV_NAG_103,CCS2,25,8,3,0,88.52,72,18.36,41,Hot/Humid,0,Available
+2025-01-22,18:00,Wednesday,0,Thane,Majiwada,EV_THA_118,Type 2,60,6,3,0,76.19,73,17.83,23,Rainy,0,Busy
+2025-01-06,14:00,Monday,0,Thane,Kashimira,EV_THA_108,CCS2,50,6,3,0,125.25,30,12.01,42,Clear,1,Busy
+2025-01-23,20:00,Thursday,0,Pune,Hinjewadi,EV_PUN_119,CHAdeMO,120,10,4,0,128.49,51,17.48,26,Hot/Humid,0,Available
+2025-01-23,01:00,Thursday,0,Pune,Baner,EV_PUN_120,Type 2,120,6,1,0,33.06,37,12.24,42,Clear,0,Available
+2025-01-20,11:00,Monday,0,Nagpur,Dharampeth,EV_NAG_118,Type 2,120,8,3,0,109.5,55,18.0,30,Rainy,0,Available
+2025-01-02,20:00,Thursday,0,Pune,Hinjewadi,EV_PUN_112,CHAdeMO,50,12,6,0,115.02,72,17.1,30,Hot/Humid,0,Busy
+2025-01-06,00:00,Monday,0,Nagpur,MIHAN,EV_NAG_116,CCS2,25,10,2,0,48.42,32,12.65,36,Rainy,0,Available
+2025-01-24,13:00,Friday,0,Mumbai,Lower Parel,EV_MUM_107,GB/T,50,12,3,0,65.74,64,12.91,37,Clear,1,Available
+2025-01-05,14:00,Sunday,1,Nashik,Satpur,EV_NAS_107,CHAdeMO,60,16,3,0,58.83,33,12.22,32,Rainy,0,Available
+2025-01-14,05:00,Tuesday,0,Nashik,Panchavati,EV_NAS_111,Type 2,60,16,4,0,164.34,30,12.82,42,Rainy,0,Available
+2025-01-28,06:00,Tuesday,0,Nagpur,Manish Nagar,EV_NAG_119,GB/T,120,8,4,0,98.77,52,13.16,22,Cloudy,1,Busy

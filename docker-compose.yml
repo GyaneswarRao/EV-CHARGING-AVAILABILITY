@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: ev_charge_mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=ev_charging_db
+    volumes:
+      - mongo_data:/data/db
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ev_charge_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017
+      - DATABASE_NAME=ev_charging_db
+      - SECRET_KEY=ev-charge-production-jwt-secret-key-2026
+    depends_on:
+      - mongodb
+    volumes:
+      - ./backend/saved_models:/app/saved_models
+      - ./dataset:/app/dataset
+
+  frontend:
+    build:
+      context: ./frontend/ev-charge-angular
+      dockerfile: Dockerfile
+    container_name: ev_charge_frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo_data:
