@@ -15,20 +15,19 @@ import { AuthService } from '../../core/services/auth.service';
           <span class="brand-text">EV<span class="text-emerald">CHARGE</span></span>
         </a>
 
-        <div class="nav-links">
+        <!-- Protected Navigation Links: ONLY visible when logged in -->
+        <div class="nav-links" *ngIf="auth.isAuthenticated">
           <a routerLink="/dashboard" routerLinkActive="active" class="nav-item">Dashboard</a>
           <a routerLink="/stations" routerLinkActive="active" class="nav-item">Stations</a>
-          <a routerLink="/map" routerLinkActive="active" class="nav-item">Map</a>
+          <a routerLink="/map" routerLinkActive="active" class="nav-item">Live Map</a>
           <a routerLink="/predict" routerLinkActive="active" class="nav-item">AI Predictor</a>
           <a routerLink="/analytics" routerLinkActive="active" class="nav-item">Analytics</a>
           <a routerLink="/model-performance" routerLinkActive="active" class="nav-item">ML Metrics</a>
-          
-          <ng-container *ngIf="auth.isAuthenticated">
-            <a routerLink="/history" routerLinkActive="active" class="nav-item">History</a>
-            <a *ngIf="auth.isAdmin" routerLink="/admin" routerLinkActive="active" class="nav-item admin-badge">Admin</a>
-          </ng-container>
+          <a routerLink="/history" routerLinkActive="active" class="nav-item">History</a>
+          <a *ngIf="auth.isAdmin" routerLink="/admin" routerLinkActive="active" class="nav-item admin-badge">Admin</a>
         </div>
 
+        <!-- Auth Actions -->
         <div class="nav-actions">
           <ng-container *ngIf="!auth.isAuthenticated">
             <a routerLink="/auth/login" class="btn btn-outline">Sign In</a>
@@ -37,8 +36,9 @@ import { AuthService } from '../../core/services/auth.service';
 
           <ng-container *ngIf="auth.isAuthenticated">
             <div class="user-chip">
-              <div class="user-avatar">{{ (auth.currentUserValue?.name || 'U').charAt(0) }}</div>
-              <span class="user-name">{{ auth.currentUserValue?.name }}</span>
+              <div class="user-avatar">{{ (auth.currentUserValue?.name || 'U').charAt(0).toUpperCase() }}</div>
+              <span class="user-name">{{ auth.currentUserValue?.name || 'User' }}</span>
+              <span *ngIf="auth.isAdmin" class="role-tag">Admin</span>
             </div>
             <button (click)="logout()" class="btn btn-outline-danger">Sign Out</button>
           </ng-container>
@@ -63,6 +63,7 @@ import { AuthService } from '../../core/services/auth.service';
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 1rem;
     }
     .nav-brand {
       display: flex;
@@ -95,16 +96,18 @@ import { AuthService } from '../../core/services/auth.service';
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.35rem;
+      flex-wrap: wrap;
     }
     .nav-item {
-      padding: 0.5rem 0.85rem;
+      padding: 0.5rem 0.8rem;
       border-radius: 0.375rem;
-      font-size: 0.925rem;
+      font-size: 0.9rem;
       font-weight: 500;
       color: #475569;
       text-decoration: none;
       transition: all 0.2s ease;
+      white-space: nowrap;
     }
     .nav-item:hover {
       color: #0f172a;
@@ -120,10 +123,14 @@ import { AuthService } from '../../core/services/auth.service';
       color: #b45309 !important;
       font-weight: 600;
     }
+    .admin-badge:hover {
+      background: #fde68a;
+    }
     .nav-actions {
       display: flex;
       align-items: center;
       gap: 0.75rem;
+      flex-shrink: 0;
     }
     .user-chip {
       display: flex;
@@ -137,19 +144,32 @@ import { AuthService } from '../../core/services/auth.service';
     .user-avatar {
       width: 1.75rem;
       height: 1.75rem;
-      background: #0ea5e9;
+      background: #10b981;
       color: white;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       font-weight: 700;
     }
     .user-name {
       font-size: 0.875rem;
       font-weight: 600;
       color: #334155;
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .role-tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      background: #fef3c7;
+      color: #b45309;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      text-transform: uppercase;
     }
     .btn {
       padding: 0.5rem 1rem;
@@ -160,6 +180,9 @@ import { AuthService } from '../../core/services/auth.service';
       text-decoration: none;
       transition: all 0.2s;
       border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
     .btn-primary {
       background: #10b981;

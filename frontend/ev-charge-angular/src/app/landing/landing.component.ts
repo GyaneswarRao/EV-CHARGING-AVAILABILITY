@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { AuthService } from '../core/services/auth.service';
 
 @Component({
   selector: 'app-landing',
@@ -23,17 +24,32 @@ import { RouterModule } from '@angular/router';
               Eliminate charging congestion and range anxiety across Maharashtra. 
               Powered by high-precision Random Forest & Logistic Regression ensembles and real-time MongoDB operational telemetry.
             </p>
-            <div class="hero-cta-group">
-              <a routerLink="/stations" class="btn btn-hero-primary">
-                <span>Explore Stations</span>
+            <div class="hero-cta-group" *ngIf="auth.isAuthenticated">
+              <a routerLink="/dashboard" class="btn btn-hero-primary">
+                <span>Go to Live Dashboard</span>
                 <span class="btn-arrow">→</span>
               </a>
-              <a routerLink="/predict" class="btn btn-hero-secondary">
+              <a routerLink="/stations" class="btn btn-hero-secondary">
+                <span>Explore Stations</span>
+              </a>
+              <a routerLink="/predict" class="btn btn-hero-ghost">
                 <span>Try AI Prediction</span>
               </a>
-              <a routerLink="/dashboard" class="btn btn-hero-ghost">
-                <span>View Live Dashboard</span>
+            </div>
+
+            <div class="hero-cta-group" *ngIf="!auth.isAuthenticated">
+              <a routerLink="/auth/login" class="btn btn-hero-primary">
+                <span>Sign In to Access Platform</span>
+                <span class="btn-arrow">→</span>
               </a>
+              <a routerLink="/auth/register" class="btn btn-hero-secondary">
+                <span>Create Free Account</span>
+              </a>
+            </div>
+
+            <div class="demo-badge-banner" *ngIf="!auth.isAuthenticated">
+              <span class="demo-pill">Quick Demo</span>
+              <span>Sign in with <strong>admin&#64;evcharge.com</strong> to explore stations, maps & ML predictions.</span>
             </div>
 
             <div class="stats-counter-strip">
@@ -199,12 +215,17 @@ import { RouterModule } from '@angular/router';
             <p class="copyright">Developed by Gyaneswar Rao • B.Tech CSE (CSE494 Capstone Architecture)</p>
           </div>
           <div class="footer-links">
-            <div class="link-col">
+            <div class="link-col" *ngIf="auth.isAuthenticated">
               <h5>Navigation</h5>
               <a routerLink="/dashboard">Dashboard</a>
               <a routerLink="/stations">Station Explorer</a>
               <a routerLink="/map">Live Map</a>
               <a routerLink="/predict">AI Predictor</a>
+            </div>
+            <div class="link-col" *ngIf="!auth.isAuthenticated">
+              <h5>Platform Access</h5>
+              <a routerLink="/auth/login">Sign In</a>
+              <a routerLink="/auth/register">Create Account</a>
             </div>
             <div class="link-col">
               <h5>Technology</h5>
@@ -596,6 +617,29 @@ import { RouterModule } from '@angular/router';
       color: #10b981;
     }
 
+    .demo-badge-banner {
+      margin-top: 1.25rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.6rem 1rem;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.5rem;
+      font-size: 0.85rem;
+      color: #475569;
+    }
+    .demo-pill {
+      background: #10b981;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
     @media (max-width: 1024px) {
       .hero-container { grid-template-columns: 1fr; }
       .steps-grid { grid-template-columns: repeat(2, 1fr); }
@@ -608,4 +652,6 @@ import { RouterModule } from '@angular/router';
     }
   `]
 })
-export class LandingComponent {}
+export class LandingComponent {
+  auth = inject(AuthService);
+}
